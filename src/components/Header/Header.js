@@ -1,33 +1,30 @@
-import React from 'react';
-import './Header.css'
+
+import React, { useState } from "react";
+import "./Header.css";
 import logo from '../../images/logo.png'
-import { BsSearch,BsList } from "react-icons/bs";
-
-const Header = () => {
-    return (
-        <div>
-        <label className='menu-nav' ><BsList className='nav-menu'/></label>
-            
-            <div className='header'>
-                <div className='header-logo'>
-                    <img src={logo} alt="" srcset="" />
-                </div>
-                <div className='header-menu'>
-
-                    <ul>
-                        <li>Home</li>
-                        <li>Health</li>
-                        <li>Medicine</li>
-                        <li>Doctors</li>
-                        <li>Clients</li>
-                        <li>Blogs</li>
-                        <li>Contact Us</li>
-                        <li><BsSearch  values='search'/></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    );
+const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  return (
+    <div className="Navbar">
+      <span className="nav-logo">
+        <img src={logo} alt="" />
+      </span>
+      <div className={`nav-items ${isOpen && "open"}`}>
+        <a href="/home">Home</a>
+        <a href="/about">Doctors</a>
+        <a href="/about">Medicine</a>
+        <a href="/about">Clients</a>
+        <a href="/service">Blogs</a>
+        <a href="/contact">Contact Us</a>
+      </div>
+      <div
+        className={`nav-toggle ${isOpen && "open"}`}
+        onClick={() => setIsOpen(!isOpen)}
+      >
+        <div className="bar"></div>
+      </div>
+    </div>
+  );
 };
 
-export default Header;
+export default Navbar;
