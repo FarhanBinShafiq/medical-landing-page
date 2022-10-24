@@ -17,11 +17,11 @@ const Home = () => {
                 
                 <div className='home-left-part-button'>
                     <button>Conatct now</button>
-                    <button>Download the apps</button>
+                    <button>Download the App</button>
                 </div>
             </div>
 
-            <div>
+            <div className='home-right-image'>
                 <img src={img1} alt="" />
             </div>
         </div>
