@@ -6,10 +6,12 @@
     background: #5265c4;
     padding: 0px 100px 0px 100px;
     height: 80px;
+ 
   }
   
  
   .Navbar > .nav-items > a {
+ 
     color: #ffffff;
     font-size: 24px;
     text-decoration: none;
