@@ -1,8 +1,6 @@
 .package-container{
     margin-top: 20px;
     padding: 10px;
-    display: grid;
-    grid-template-rows: repeat(1,1fr);
 }
 
 .package h1{
@@ -35,15 +33,33 @@
 .package-container .package-img img{
     padding-top: 50px;
     width: 90%;
+ 
  }
 
 
 .package-img .image-one{
     height: 90%;
+  
 }
+
+.package-img .image-one:hover{
+    position: relative;
+    transition: .5s ease-in-out;
+    height: 100%;
+  
+}
+
 
 .package-img .image-two{
     height: 90%;
+    
+}
+
+.package-img .image-two:hover{
+    position: relative;
+    transition: .5s ease-in-out;
+    height: 100%;
+    
 }
 
 .package-img-detail{
@@ -64,4 +80,75 @@
 
 .package-img-detail button:hover{
     background-color: antiquewhite;
+}
+
+
+
+
+@media screen and (max-width:768px) {
+
+    .package-container{
+        margin-top: 0;
+        padding: 5px;
+    }
+    
+
+    
+.package h1{
+    font-size: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.package p{
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    padding: 5px;
+}
+
+    
+    .package-container .package-img {
+        display: block;
+        margin: 10px;
+       
+    }
+
+    .package-container .package-img img{
+        padding-top: 30px;
+       
+     
+     }
+    
+    
+    .package-img .image-one{
+        height: 100%;
+      
+    }
+    
+    
+    
+    .package-img .image-two{
+        height: 90%;
+        
+        
+    }
+    
+   .package-img-detail button{
+        height: 40px;
+        border-radius: 5px;
+        font-size: 14px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        background-color: black;
+        color: brown;
+        width: 40%;
+        margin-bottom: 10px;
+    }
+    
+     
+    
+    
+    
 }

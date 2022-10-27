@@ -81,6 +81,12 @@ span {
 
 
 @media screen and (max-width:768px) {
+
+    .home-nav {
+      
+        display:block;
+    }
+    
     .home-left-part {
         border: 1px solid yellow;
         box-sizing: border-box;
@@ -93,8 +99,7 @@ span {
 
 
     .home-nav .home-right-image img {
-        height: 60%;
-        margin-left: 20px;
+   display: none;
     }
 
 

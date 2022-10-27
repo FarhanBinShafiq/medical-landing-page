@@ -15,6 +15,7 @@ const Package = () => {
 
             <div className='package-img'>
                 <img className='image-one' src={img2} alt="" />
+                  
                 <div className='package-img-detail'>
                     <img className='image-two' src={img1} alt="" />
                      <button>Read More  <span> <FaArrowRight/></span></button>
