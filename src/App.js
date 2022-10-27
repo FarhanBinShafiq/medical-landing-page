@@ -1,3 +1,4 @@
+import Doctor from "./components/Doctors/Doctor";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import Package from "./components/Package/Package";
@@ -10,6 +11,7 @@ function App() {
         <Header></Header>
         <Home/>
         <Package/>
+        <Doctor></Doctor>
     </div>
   );
 }

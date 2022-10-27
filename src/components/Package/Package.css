@@ -1,6 +1,6 @@
 .package-container{
     margin-top: 20px;
-    padding: 10px;
+    padding: 30px;
 }
 
 .package h1{
@@ -27,7 +27,7 @@
   .package-img{
     padding-left: 5%;
     border: 20px solid red;
-    margin-left: 60px;
+    
   }
 
 .package-container .package-img img{

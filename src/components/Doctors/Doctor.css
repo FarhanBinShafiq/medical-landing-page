@@ -1,0 +1,35 @@
+
+
+.doctor-container{
+    padding: 8px;
+    background-color: aqua;
+    margin: 20px;
+    border: 1px solid rgb(8, 8, 8);
+}
+
+h2{
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    color: brown;
+}
+
+h6{  font-size: 20px; 
+    text-align: center;
+    letter-spacing: 1px;
+    color: black;  
+}
+
+.doctors-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-gap: 40px;
+
+}
+
+
+.doctors-list{
+   
+    padding-top: 15px;
+}

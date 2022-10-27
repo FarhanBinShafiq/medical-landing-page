@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Mustafa Leek",
+    "designation": "Professor",
+    "department": "Physiotherapy & Rehabilitation",
+    "img": "https://i.ibb.co/2828RZ0/ashkan-forouzani-DPEPYPBZp-B8-unsplash.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Ann Chovey",
+    "designation": "Associate Professor",
+    "department": "Ophthalmology",
+    "img": "https://i.ibb.co/rcSxDPh/bruno-rodrigues-279x-IHym-PYY-unsplash.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Emma Grate",
+    "designation": "Assistant Professor",
+    "department": "Head & Neck Surgery - Oncology",
+    "img": "https://i.ibb.co/Z2DFbdY/bruno-rodrigues-BCUUAs-PECK4-unsplash.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Audie Yose",
+    "designation": "Associate Professor",
+    "department": "Spine Surgery",
+    "img": "https://i.ibb.co/d7YwVK1/doctor-mako-p-Msyc-X4-AOKM-unsplash.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Rhoda Report",
+    "designation": " Professor",
+    "department": "Neurosurgery",
+    "img": "https://i.ibb.co/bmCyCd8/junior-reis-Q-u-Vp-Gtse-AQ-unsplash.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Cherry Blossom",
+    "designation": "MBBSr",
+    "department": "Dental Sciences",
+    "img": "https://i.ibb.co/gTfGqdz/mike-noemi-gonzalez-Bk-Qy-T1-K8-J6k-unsplash.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Roy L. Commishun",
+    "designation": "Associate Professor",
+    "department": "Neurology",
+    "img": "https://i.ibb.co/0Q61tmT/doctor-mako-Ye-TNPJQW8-Yo-unsplash.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Ginger Plant",
+    "designation": "Assistant Professor",
+    "department": "Uro - Oncology",
+    "img": "https://i.ibb.co/8PTNdNX/national-cancer-institute-koo-Sjl-L8-Ln-Q-unsplash.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Minnie Van Ryder",
+    "designation": " Professor",
+    "department": "Orthopaedics",
+    "img": "https://i.ibb.co/cyDLH4R/rian-ramirez-rm7r-ZYdl3r-Y-unsplash.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Allie Grater",
+    "designation": "Associate Professor",
+    "department": " Radiology",
+    "img": "https://i.ibb.co/8XPP62j/siamak-poorjam-x-HFqo-XAj3-E4-unsplash.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Olive Yew",
+    "designation": "Associate Professor",
+    "department": "Gastroenterology - Medical",
+    "img": "https://i.ibb.co/0ZcSgjJ/siednji-leon-lnl-SIsi-Sjjc-unsplash.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Patty O’Furniture",
+    "designation": "Professor",
+    "department": "General Surgery",
+    "img": "https://i.ibb.co/m98DGXH/vivek-vyas-Ih-Lzm0je-UVU-unsplash.jpg"
+  }
+]
