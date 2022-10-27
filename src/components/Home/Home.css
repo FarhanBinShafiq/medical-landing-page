@@ -1,53 +1,53 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.home{
-    height: 90vh;
+.home {
+
     width: 100%;
 }
 
-.home-nav{
-   
+.home-nav {
+
     height: 100vh;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
 }
 
-.home-left-part{
+.home-left-part {
     border: 1px solid yellow;
     box-sizing: border-box;
     text-align: center;
-    padding-top: 20%;
-     
+    padding-top: 10%;
+    padding-bottom: 10%;
+
 }
 
-.home-left-heading  {
+.home-left-heading {
     text-transform: uppercase;
     letter-spacing: 2px;
-     
+
 }
 
 .home-left-heading h1 {
-    font-size:48px ;
+    font-size: 48px;
 }
 
 .home-left-heading h2 {
-    font-size:48px ;
+    font-size: 48px;
 }
 
 .home-left-heading p {
-    padding-top: 20px; 
+    padding-top: 20px;
     font-size: 18px;
     box-sizing: border-box;
     padding: 10px;
-     
+
 }
 
-span{
+span {
     color: brown;
 }
 
@@ -56,11 +56,11 @@ span{
     justify-content: center;
     margin-top: 10px;
     display: flex;
-    direction: ltr;
-     
+
+
 }
 
-.home-left-part-button button{
+.home-left-part-button button {
 
     margin-left: 20px;
     height: 80px;
@@ -73,8 +73,64 @@ span{
 }
 
 
-.home-nav .home-right-image img{
-    margin-top: 40px;
-    margin-left: 30px;
-     
+.home-nav .home-right-image img {
+    height: 80%;
+    margin-top: 60px;
+    margin-left: 20%;
+}
+
+
+@media screen and (max-width:768px) {
+    .home-left-part {
+        border: 1px solid yellow;
+        box-sizing: border-box;
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
+
+    }
+
+
+
+    .home-nav .home-right-image img {
+        height: 60%;
+        margin-left: 20px;
+    }
+
+
+
+    .home-left-heading {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+
+    }
+
+    .home-left-heading h1 {
+        font-size: 40px;
+    }
+
+    .home-left-heading h2 {
+        font-size: 38px;
+    }
+
+    .home-left-heading p {
+        padding-top: 10px;
+        font-size: 18px;
+        box-sizing: border-box;
+        padding: 8px;
+
+    }
+
+    .home-left-part-button button {
+
+        margin-left: 10px;
+        height: 60px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 18px;
+        width: 200px;
+        border: 1px solid red;
+    }
+
+
 }
