@@ -15,7 +15,7 @@ function App() {
         <Package/>
         <Doctor></Doctor>  */}
         <Departments></Departments>
-        <Neorology></Neorology>
+       
     </div>
   );
 }

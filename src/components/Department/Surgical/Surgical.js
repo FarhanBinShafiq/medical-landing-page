@@ -1,19 +1,20 @@
 import React from 'react';
-import neurology from '../../../images/neourology.jpg'
-import './Neurology.css'
+import './Surgical.css'
+import surgical from '../../../images/surgical.jpg'
 import iconOne from '../../../images/icon-5.png'
 import iconTwo from '../../../images/icon-6.png'
 import iconThree from '../../../images/icon-7.png'
 import iconFour from '../../../images/icon-8.png'
 
-const Neorology = () => {
+
+const Surgical = () => {
     return (
-        <div className='neurology-contaniner'>
+        <div className='surgical-contaniner'>
             <div className='neurology-detail'>
-                <h3>Neurological Deparments</h3>
+                <h3>Surgical Deparments</h3>
                 <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word.</p>
-                <div className='neurology-options'>
-                    <div className='neurology-checkup'>
+                <div className='surgical-options'>
+                    <div className='surgical-checkup'>
 
                         <div>
                             <img src={iconOne} alt="" />
@@ -24,7 +25,7 @@ const Neorology = () => {
                         </div>
                     </div>
 
-                    <div className='neurology-checkup'>
+                    <div className='surgical-checkup'>
 
                         <div>
                             <img src={iconTwo} alt="" />
@@ -35,7 +36,7 @@ const Neorology = () => {
                         </div>
                     </div>
 
-                    <div className='neurology-checkup'>
+                    <div className='surgical-checkup'>
 
                         <div>
                             <img src={iconThree} alt="" />
@@ -45,7 +46,7 @@ const Neorology = () => {
                             <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
                         </div>
                     </div>
-                    <div className='neurology-checkup'>
+                    <div className='surgical-checkup'>
 
                         <div>
                             <img src={iconFour} alt="" />
@@ -59,12 +60,12 @@ const Neorology = () => {
             </div>
 
 
-            <div className='neurology-img'>
-                <img src={neurology} alt="" />
-            </div>
+             <div className='surgical-img'>
+                <img src={surgical} alt="" />
+            </div> 
 
         </div>
     );
 };
 
-export default Neorology;
+export default Surgical;
