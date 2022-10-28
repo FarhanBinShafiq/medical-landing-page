@@ -74,9 +74,10 @@ span {
 
 
 .home-nav .home-right-image img {
-    height: 80%;
+    height: 100%;
+    width: 85%;
     margin-top: 60px;
-    margin-left: 20%;
+    margin-left: 20px;
 }
 
 

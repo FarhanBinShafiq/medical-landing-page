@@ -1,0 +1,52 @@
+.neurology-contaniner {
+    width: 90%;
+    height: auto;
+    margin-left: 85px;
+    background-color: rgb(177, 85, 85);
+    padding-left: 70px;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.neurology-detail {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.neurology-img {
+    margin-left: 80px;
+    box-sizing: border-box;
+    height: 550px;
+    width: 70%;
+}
+
+.neurology-checkup{
+    display: flex;
+}
+
+.neurology-options{
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    grid-gap:30px
+}
+
+@media screen and (max-width:768px) {
+    .neurology-contaniner {
+        width: 100%;
+        margin-top: 10px;
+        background-color: azure;
+        margin-left: 0;
+        padding-left: 0;
+        padding-top: 20px;
+        display: inline-block;
+    }
+
+    .neurology-img {
+        margin-left: 0;
+        box-sizing: border-box;
+        height: auto;
+        width: 100%;
+    }
+}

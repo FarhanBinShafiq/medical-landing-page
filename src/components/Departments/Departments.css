@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+.department-top {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.department-top>h5 {
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.department-top>p {
+    padding-top: 10px;
+    letter-spacing: 2px;
+}
+
+ 
+.department-menu ul {
+    cursor: pointer;
+    height: 80px;
+    width: 90%;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(143, 15, 15);
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-left: 85px;
+     
+}
+
+.department-menu ul li{
+    padding-top: 20px;
+}
+
+
+.department-menu ul li a{
+      
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 28px;
+    color: aquamarine;
+}
+
+.department-menu ul li:hover{
+ 
+    background-color: blueviolet;
+   
+}
+
+@media screen  and (max-width:768px){
+
+    .department-menu ul {
+        height: auto;
+        width: 80%;
+        background-color: white;
+        margin-top: 10px;
+        display: inline-block;
+        margin-left: 70px;
+        margin-right: 0;
+    }
+
+    .department-menu ul li{
+        margin-top: 5px;
+        height: 40px;
+        border: 1px solid black;
+        padding-top: 2px;
+    }
+    
+    
+    .department-menu ul li a{
+          
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 20px;
+        color: rgb(134, 84, 48);
+        transition: width 1s ease-in-out 1s;
+        
+    }
+
+    .department-menu ul li:hover{
+         transform:  scale(1.5)   ;
+        background-color: rgb(56, 25, 86);
+        
+    }
+    
+}
+
+
+@media screen  and (max-width:530px){
+    .department-menu ul {
+        margin-left: 40px;
+        margin-right: 0;
+    }
+
+}

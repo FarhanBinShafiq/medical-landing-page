@@ -1,3 +1,5 @@
+import Neorology from "./components/Department/Neurology/Neorology";
+import Departments from "./components/Departments/Departments";
 import Doctor from "./components/Doctors/Doctor";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
@@ -9,9 +11,11 @@ function App() {
   return (
     <div className="App">
         <Header></Header>
-        <Home/>
+        {/* <Home/>
         <Package/>
-        <Doctor></Doctor>
+        <Doctor></Doctor>  */}
+        <Departments></Departments>
+        <Neorology></Neorology>
     </div>
   );
 }
