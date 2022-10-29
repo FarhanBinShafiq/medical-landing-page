@@ -1,4 +1,5 @@
 .dental-contaniner {
+    margin-top: 20px;
     width: 90%;
     height: auto;
     margin-left: 85px;
@@ -30,6 +31,10 @@
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
     grid-gap:30px
+}
+.icon img{
+    height: 80px;
+    width: 80px;
 }
 
 @media screen and (max-width:768px) {

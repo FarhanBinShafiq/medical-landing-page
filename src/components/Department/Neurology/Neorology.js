@@ -15,7 +15,7 @@ const Neorology = () => {
                 <div className='neurology-options'>
                     <div className='neurology-checkup'>
 
-                        <div>
+                        <div className='icon'>
                             <img src={iconOne} alt="" />
                         </div>
                         <div>
@@ -26,7 +26,7 @@ const Neorology = () => {
 
                     <div className='neurology-checkup'>
 
-                        <div>
+                        <div className='icon'>
                             <img src={iconTwo} alt="" />
                         </div>
                         <div>
@@ -37,7 +37,7 @@ const Neorology = () => {
 
                     <div className='neurology-checkup'>
 
-                        <div>
+                        <div className='icon'>
                             <img src={iconThree} alt="" />
                         </div>
                         <div>
@@ -47,7 +47,7 @@ const Neorology = () => {
                     </div>
                     <div className='neurology-checkup'>
 
-                        <div>
+                        <div className='icon'>
                             <img src={iconFour} alt="" />
                         </div>
                         <div>

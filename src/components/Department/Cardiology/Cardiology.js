@@ -15,7 +15,7 @@ const Cardiology = () => {
                 <div className='cardiology-options'>
                     <div className='cardiology-checkup'>
 
-                        <div>
+                        <div  className='icon'>
                             <img src={iconOne} alt="" />
                         </div>
                         <div>
@@ -26,7 +26,7 @@ const Cardiology = () => {
 
                     <div className='cardiology-checkup'>
 
-                        <div>
+                        <div className='icon'>
                             <img src={iconTwo} alt="" />
                         </div>
                         <div>
@@ -36,7 +36,7 @@ const Cardiology = () => {
                     </div>
                     <div className='cardiology-checkup'>
 
-                        <div>
+                        <div className='icon'>
                             <img src={iconThree} alt="" />
                         </div>
                         <div>
@@ -47,7 +47,7 @@ const Cardiology = () => {
 
                     <div className='cardiology-checkup'>
 
-                        <div>
+                        <div className='icon'>
                             <img src={iconFour} alt="" />
                         </div>
                         <div>

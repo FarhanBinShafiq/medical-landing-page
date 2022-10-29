@@ -16,7 +16,7 @@ const Surgical = () => {
                 <div className='surgical-options'>
                     <div className='surgical-checkup'>
 
-                        <div>
+                        <div className='icon'>
                             <img src={iconOne} alt="" />
                         </div>
                         <div>
@@ -27,7 +27,7 @@ const Surgical = () => {
 
                     <div className='surgical-checkup'>
 
-                        <div>
+                        <div className='icon'>
                             <img src={iconTwo} alt="" />
                         </div>
                         <div>
@@ -38,7 +38,7 @@ const Surgical = () => {
 
                     <div className='surgical-checkup'>
 
-                        <div>
+                        <div className='icon'>
                             <img src={iconThree} alt="" />
                         </div>
                         <div>
@@ -48,7 +48,7 @@ const Surgical = () => {
                     </div>
                     <div className='surgical-checkup'>
 
-                        <div>
+                        <div className='icon'>
                             <img src={iconFour} alt="" />
                         </div>
                         <div>
