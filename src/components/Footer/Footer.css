@@ -1,4 +1,132 @@
-.footer-container{
+* {
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+h6 {
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+
+}
+
+.footer-container {
+    background-color: rgb(212, 84, 84);
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+
+.footer-contactUs {
+    margin-bottom: 30px;
+}
+
+.footer-logo {
+    padding-left: 20px;
+    height: 100px;
+    width: 190px;
+}
+
+.footer-contact-class {
+    padding-left: 20px;
+    font-size: 24px;
+}
+
+.footer-contact-class li {
+    margin-top: 5px;
+
+}
+
+.footer-contact-class li span {
+    font-size: 18px;
+    padding-left: 5px;
+    margin-top: 5px;
+    letter-spacing: 2px;
+}
+
+.footer-doctor-details{
+    padding-right: 20px !;
+}
+
+.footer-doctor-details p {
+    padding-left: 20px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.footer-links li {
+    padding-top: 5px;
+    margin-left: 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+
+    color: black;
+}
+
+
+.footer-socialMedia .footer-input {
+    margin-left: 20px;
+    padding-left: 20px;
+    width: 70%;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.footer-socialMedia .footer-submit-btn {
+    margin-left: 20px;
+    height: 40px;
+    width: 120px;
+    background-color: aqua;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 10px;
+}
+
+.footer-social-media {
+
+    padding-top: 20px;
+
+}
+
+.footer-social-media {
+    font-size: 36px;
+
+    display: flex;
+}
+
+.footer-social-media li {
+    padding-left: 20px;
+}
+
+
+@media screen and (max-width:768px) {
+
+.footer-container {
+    display: inline-block;
+}
+
+    .footer-logo {
+        display: none;
+    }
+
+    h6{
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    .footer-links{
+        display: flex;
+    }
+
+    .footer-socialMedia .footer-input {
+        
+        width: 90%;
+        
+    }
+
 }

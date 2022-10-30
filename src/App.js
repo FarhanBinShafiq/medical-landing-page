@@ -12,10 +12,10 @@ function App() {
   return (
     <div className="App">
         <Header></Header>
-          {/* <Home/>
+          <Home/>
         <Package/>
         <Doctor></Doctor>  
-        <Departments></Departments>  */}
+        <Departments></Departments>  
         <Footer></Footer>
        
     </div>

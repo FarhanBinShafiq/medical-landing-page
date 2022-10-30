@@ -1,42 +1,55 @@
 import React from 'react';
-//import logo from '../../images/logo.png'
+import logo from '../../images/logo.png'
 import './Footer.css'
+import { BsFacebook, BsInstagram, BsGoogle, BsTwitter } from "react-icons/bs";
+import { BsFillTelephonePlusFill } from "react-icons/bs";
+import { FaMapMarkerAlt } from "react-icons/fa";
+import { AiOutlineMail } from "react-icons/ai";
 
 const Footer = () => {
     return (
         <div className='footer-container'>
             <div>
-                <div>
-                    <img src='' alt="" />
+                <div className='footer-logo'>
+                    <img src={logo} alt="" />
                 </div>
-                <div>
-                    <h3>Contact Us</h3>
-                    <div>
-                        <p> +7586656566</p>
-                        <p> Dhaka ,Bangladesh</p>
-                        <p>Farhan@gmail.com</p>
-                    </div>
+                <div className='footer-contactUs'>
+              <h6>Contact with us</h6>
+                    <ul className='footer-contact-class'>
+                        <li><BsFillTelephonePlusFill /> <span>+758 665656600</span></li>
+                        <li> <FaMapMarkerAlt /><span>Dhaka ,Bangladesh </span></li>
+                        <li><AiOutlineMail /><span> Farhan@gmail.com </span></li>
+                    </ul>
                 </div>
             </div>
 
-            <div>
-                <h2>Doctors</h2>
+            <div className='footer-doctor-details'>
+                <h6>Doctors</h6>
                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
             </div>
+            
             <div>
-                <h2>Useful links</h2>
-                <div>
-                    <p>All department Links</p>
-                </div>
+                <h6>Useful links</h6>
+                <ul className='footer-links'>
+                     <li><a href="http://">Home</a></li>
+                     <li><a href="http://">Doctors</a></li>
+                     <li><a href="http://">Blogs</a></li>
+                     <li><a href="http://">Contact Us</a></li>
+                     <li><a href="http://">News Letter</a></li>
+                </ul>
             </div>
-            <div>
-                <h2>News Letter</h2>
+            <div className='footer-socialMedia'>
+                <h6>News Letter</h6>
                 <div>
-                    <input type="text" placeholder='Enter your email' />
-                    <button>Submit</button>
-                    <div>
-                        <p>Social media link</p>
-                    </div>
+                    <input type="text" className='footer-input' placeholder='Enter your email' /><br /> <br />
+                    <button className='footer-submit-btn'>Submit</button>
+                    <ul className='footer-social-media'>
+
+                        <li><a href="http://www.facebook.com"><BsFacebook /></a></li>
+                        <li><a href="http://www.instagram.com"><BsInstagram /></a></li>
+                        <li><a href="http://www.google.com"><BsGoogle /></a></li>
+                        <li><a href="http://www.twitter.com"><BsTwitter /></a></li>
+                    </ul>
                 </div>
             </div>
         </div>
