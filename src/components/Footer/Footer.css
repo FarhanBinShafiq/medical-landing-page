@@ -14,6 +14,9 @@ h6 {
 }
 
 .footer-container {
+    height:auto;
+    padding-top: 10px;
+    margin-top: 20px;
     background-color: rgb(212, 84, 84);
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -48,7 +51,7 @@ h6 {
 }
 
 .footer-doctor-details{
-    padding-right: 20px !;
+    padding-right: 20px!important;
 }
 
 .footer-doctor-details p {
@@ -63,7 +66,10 @@ h6 {
     margin-left: 20px;
     font-size: 18px;
     letter-spacing: 1px;
+    color: black;
+}
 
+.footer-links li a{
     color: black;
 }
 
@@ -95,8 +101,8 @@ h6 {
 
 .footer-social-media {
     font-size: 36px;
-
     display: flex;
+
 }
 
 .footer-social-media li {
@@ -107,7 +113,9 @@ h6 {
 @media screen and (max-width:768px) {
 
 .footer-container {
-    display: inline-block;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
     .footer-logo {
@@ -123,9 +131,14 @@ h6 {
         display: flex;
     }
 
+    .footer-doctor-details{
+        display: none;
+    }
+    
+
     .footer-socialMedia .footer-input {
         
-        width: 90%;
+        width: 70%;
         
     }
 

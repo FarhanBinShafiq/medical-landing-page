@@ -1,3 +1,5 @@
+import Clients from "./components/Clients/Clients";
+import Contact from "./components/Contact/Contact";
 import Neorology from "./components/Department/Neurology/Neorology";
 import Departments from "./components/Departments/Departments";
 import Doctor from "./components/Doctors/Doctor";
@@ -13,10 +15,13 @@ function App() {
     <div className="App">
         <Header></Header>
           <Home/>
-        <Package/>
+          {/* <Clients></Clients>
+         <Package/>
         <Doctor></Doctor>  
         <Departments></Departments>  
-        <Footer></Footer>
+        <Footer></Footer>  */}
+
+        <Contact></Contact>
        
     </div>
   );
