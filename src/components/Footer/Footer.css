@@ -4,8 +4,9 @@
 }
 
 h6 {
+   
     text-align: left;
-    padding-left: 20px;
+    margin-left: 20px;
     margin-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -17,26 +18,29 @@ h6 {
     height:auto;
     padding-top: 10px;
     margin-top: 20px;
-    background-color: rgb(212, 84, 84);
+    background-color: rgb(254, 252, 252);
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    border: 1px solid rgb(87, 1, 1);
 }
 
 
 .footer-contactUs {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .footer-logo {
-    padding-left: 20px;
+    
     height: 100px;
-    width: 190px;
+    width: 250px;
 }
 
 .footer-contact-class {
-    padding-left: 20px;
+    padding-left: 10px;
     font-size: 24px;
 }
+
+
 
 .footer-contact-class li {
     margin-top: 5px;
@@ -50,13 +54,10 @@ h6 {
     letter-spacing: 2px;
 }
 
-.footer-doctor-details{
-    padding-right: 20px!important;
-}
-
+ 
 .footer-doctor-details p {
     padding-left: 20px;
-    letter-spacing: 1px;
+    letter-spacing: px;
     font-size: 18px;
     margin-bottom: 25px;
 }
@@ -67,6 +68,7 @@ h6 {
     font-size: 18px;
     letter-spacing: 1px;
     color: black;
+    margin-bottom: 20px;
 }
 
 .footer-links li a{
@@ -85,8 +87,11 @@ h6 {
 .footer-socialMedia .footer-submit-btn {
     margin-left: 20px;
     height: 40px;
-    width: 120px;
-    background-color: aqua;
+    color: red;
+    letter-spacing: 1px;
+    font-size: 18px;
+    width: 160px;
+    background-color: #0c0702;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -100,6 +105,7 @@ h6 {
 }
 
 .footer-social-media {
+  
     font-size: 36px;
     display: flex;
 
@@ -112,34 +118,78 @@ h6 {
 
 @media screen and (max-width:768px) {
 
-.footer-container {
-    display: block;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
     .footer-logo {
-        display: none;
+        padding-left: 20px;
+        height: 100px;
+        width: 80%;
     }
-
-    h6{
-        font-weight: 400;
-        font-size: 20px;
-    }
-
-    .footer-links{
-        display: flex;
-    }
-
-    .footer-doctor-details{
-        display: none;
+    
+    .footer-contact-class {
+        padding-left: 40px;
+        font-size: 16px;
     }
     
 
-    .footer-socialMedia .footer-input {
-        
-        width: 70%;
-        
+    .footer-container {
+        display: block;
+        margin-left: 10px;
+        margin-right: 10px;
     }
+    
+       
+    
+        h6{
+            font-weight: 400;
+            font-size: 20px;
+        }
+    
+        .footer-links{
+            display: flex;
+        }
+    
+        .footer-doctor-details{
+            display: none;
+        }
+        
+    
+        .footer-socialMedia .footer-input {
+            
+            width: 70%;
+            
+        }
+
+
+        .footer-social-media {
+  
+        padding-left: 20px;
+        
+        }
+        
+        .footer-social-media li {
+            padding-left: 40px;
+        }
+        
+
+}
+
+
+@media screen and (max-width:410px) {
+    .footer-links li {
+        padding-top: 5px;
+        margin-left: 5px;
+        font-size: 14px;
+}
+
+
+.footer-social-media {
+  
+    padding-left: 10px;
+    
+    }
+    
+    .footer-social-media li {
+        padding-left: 20px;
+    }
+    
 
 }

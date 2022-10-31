@@ -13,15 +13,16 @@ import Package from "./components/Package/Package";
 function App() {
   return (
     <div className="App">
-        <Header></Header>
-          <Home/>
-          {/* <Clients></Clients>
+         <Header></Header>
+          {/* <Home/>
+        <Clients></Clients>
          <Package/>
         <Doctor></Doctor>  
-        <Departments></Departments>  
-        <Footer></Footer>  */}
+  <Departments></Departments>  */}
+        
 
-        <Contact></Contact>
+        <Contact></Contact> 
+      <Footer></Footer>
        
     </div>
   );

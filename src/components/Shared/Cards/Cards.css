@@ -1,0 +1,78 @@
+ h4 {
+     font-size: 28px;
+     font-weight: 600px;
+ }
+
+ span {
+     padding-right: 30px;
+     font-size: 28px;
+ }
+
+ .card p {
+     font-size: 18px;
+     letter-spacing: 1px;
+ }
+
+ .cards-container {
+ 
+         padding-top: 50px;
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  
+    
+
+
+ }
+
+
+
+ .card {
+  
+     text-align: center;
+     margin-left: 30px;
+     margin-right: 30px;
+     border: 1px solid black;
+    
+ }
+
+
+ 
+
+ @media screen and (max-width:768px) {
+
+    h4 {
+        font-size: 22px;
+        font-weight: 400px;
+    }
+   
+    span {
+         
+        font-size: 22px;
+    }
+   
+    .card p {
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+   
+ 
+
+     .cards-container {
+         margin-left: 60px;
+         display: block;
+         height: 50vh;
+         width: 80%;
+
+     }
+
+     .card {
+         padding-top: 0;
+         margin-left: 30px;
+         margin-right: 30px;
+         border: 1px solid black;
+         margin-top: 20px;
+     }
+
+
+
+ }

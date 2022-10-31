@@ -23,10 +23,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className='footer-doctor-details'>
-                <h6>Doctors</h6>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
-            </div>
+           
             
             <div>
                 <h6>Useful links</h6>
@@ -51,6 +48,11 @@ const Footer = () => {
                         <li><a href="http://www.twitter.com"><BsTwitter /></a></li>
                     </ul>
                 </div>
+            </div>
+
+            <div className='footer-doctor-details'>
+                <h6>Doctors</h6>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have sufferedThere are many variations of passages of Lorem Ipsum available, but the majority have sufferedThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
             </div>
         </div>
     );
