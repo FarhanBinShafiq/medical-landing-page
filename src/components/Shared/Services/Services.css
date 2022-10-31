@@ -1,0 +1,48 @@
+.services-top{
+    background-color: aquamarine;
+    padding-top: 40px;
+    text-align: center;
+ 
+}
+
+
+.services-top-boxs{
+    padding-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    padding-bottom: 25px;
+}
+
+.services-top-boxs img{
+    height: 100px;
+    width: 45%;
+  
+}
+
+.services-top-box{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    padding-top: 40px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    width: 280px;
+    height: 280px;
+    margin-left: 250px;
+    border: 2px solid red;
+   
+}
+
+.services-top-box:hover{
+    background-color: aquamarine;
+ 
+   
+}
+
+
+#box-1{
+    background-color: aquamarine !important;
+}
+
+
+ 

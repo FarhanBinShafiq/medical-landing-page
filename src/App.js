@@ -1,3 +1,5 @@
+ 
+import Blogs from "./components/Blogs/Blogs";
 import Clients from "./components/Clients/Clients";
 import Contact from "./components/Contact/Contact";
 import Neorology from "./components/Department/Neurology/Neorology";
@@ -7,7 +9,8 @@ import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import Package from "./components/Package/Package";
-
+ 
+import Services from "./components/Shared/Services/Services";
  
 
 function App() {
@@ -21,7 +24,9 @@ function App() {
   <Departments></Departments>  */}
         
 
-        <Contact></Contact> 
+        {/* <Contact></Contact>  */}
+         {/* <Services></Services> */}
+         <Blogs></Blogs>
       <Footer></Footer>
        
     </div>
