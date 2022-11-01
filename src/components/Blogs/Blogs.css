@@ -11,8 +11,32 @@
  }
 
  .blog-cards{
-          display: grid;
-          grid-template-columns: repeat(auto-fit,minmax(500px,1fr));
+        padding: 20px;
+        padding-left: 70px;
+        display: grid;
+       
+        grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+  }
+
+ .blog-card{
+  margin-left: 20px;
+  margin-top: 20px;
+  border: 1px solid red;
+}
+
+ .blog-card-header{
+  padding: 10px;
+  border-bottom: 1px solid black;
+ }
+
+ .blog-card-header h3{
+  padding-left: 8px;
+  letter-spacing: 2px;
+ }
+ 
+ .blog-card-header p{
+  letter-spacing: 2px;
+  font-size: 18px;
  }
 
  .blog-card-footer{
@@ -27,15 +51,26 @@
 
  .blog-card-footer-one img{
    border-radius: 50%; 
-   height: 70px;
-   width: 70px;
+   height: 80px;
+   width: 80px;
  }
 
  .blog-card-footer-one small{
-       padding-top: 25px;
+       padding-top: 10px;
  }
 
 
  .blog-card-footer-two{
    display: flex;
  }
+
+ .blogs-author{
+   font-size: 12px;
+   letter-spacing: 1px;
+   font-weight: 400;
+   text-transform: uppercase;
+   
+ }
+
+
+ 

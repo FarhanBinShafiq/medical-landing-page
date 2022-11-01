@@ -20,246 +20,236 @@ const Blogs = () => {
             <p></p>
 
             <div className='blog-cards'>
-                <div>
-                    <div>
+                              
+            <div className='blog-card'>
+                    <div className='blog-card-header'>
                         <img src={blog1} alt="" />
-                        <h4>Dolor clita vero elitr sea stet dolor justo diam</h4>
+                        <h3>Dolor clita vero elitr sea stet dolor justo diam</h3>
                         <p>Dolor lorem eos dolor duo et eirmod sea. Dolor sit magna rebum clita rebum dolor stet amet justo</p>
                     </div>
 
                     <div className='blog-card-footer'>
                         <div className='blog-card-footer-one'>
-                        <img src={test1} alt="" />
-                            <small>John Doe</small>
+                            <img src={test1} alt="" />
+                            <small>Author: <span><small className='blogs-author'>John Doe</small></span> </small>
+
                         </div>
-                        <div className='blog-card-footer-two'>
-                            <small>126542</small>
-                            <small>123</small>
-                        </div>
+
                     </div>
                 </div>
 
-                <div>
-                    <div>
+
+
+                <div className='blog-card'>
+                    <div className='blog-card-header'>
                         <img src={blog1} alt="" />
-                        <h4>Dolor clita vero elitr sea stet dolor justo diam</h4>
+                        <h3>Dolor clita vero elitr sea stet dolor justo diam</h3>
                         <p>Dolor lorem eos dolor duo et eirmod sea. Dolor sit magna rebum clita rebum dolor stet amet justo</p>
                     </div>
 
                     <div className='blog-card-footer'>
                         <div className='blog-card-footer-one'>
-                        <img src={test1} alt="" />
-                            <small>John Doe</small>
+                            <img src={test1} alt="" />
+                            <small>Author: <span><small className='blogs-author'>John Doe</small></span> </small>
+
                         </div>
-                        <div className='blog-card-footer-two'>
-                            <small>126542</small>
-                            <small>123</small>
-                        </div>
+
                     </div>
                 </div>
 
 
-                <div>
-                    <div>
+
+                <div className='blog-card'>
+                    <div className='blog-card-header'>
                         <img src={blog1} alt="" />
-                        <h4>Dolor clita vero elitr sea stet dolor justo diam</h4>
+                        <h3>Dolor clita vero elitr sea stet dolor justo diam</h3>
                         <p>Dolor lorem eos dolor duo et eirmod sea. Dolor sit magna rebum clita rebum dolor stet amet justo</p>
                     </div>
 
                     <div className='blog-card-footer'>
                         <div className='blog-card-footer-one'>
-                        <img src={test1} alt="" />
-                            <small>John Doe</small>
+                            <img src={test1} alt="" />
+                            <small>Author: <span><small className='blogs-author'>John Doe</small></span> </small>
+
                         </div>
-                        <div className='blog-card-footer-two'>
-                            <small>126542</small>
-                            <small>123</small>
-                        </div>
+
                     </div>
                 </div>
 
 
-                <div>
-                    <div>
+                <div className='blog-card'>
+                    <div className='blog-card-header'>
                         <img src={blog1} alt="" />
-                        <h4>Dolor clita vero elitr sea stet dolor justo diam</h4>
+                        <h3>Dolor clita vero elitr sea stet dolor justo diam</h3>
                         <p>Dolor lorem eos dolor duo et eirmod sea. Dolor sit magna rebum clita rebum dolor stet amet justo</p>
                     </div>
 
                     <div className='blog-card-footer'>
                         <div className='blog-card-footer-one'>
-                        <img src={test1} alt="" />
-                            <small>John Doe</small>
+                            <img src={test1} alt="" />
+                            <small>Author: <span><small className='blogs-author'>John Doe</small></span> </small>
+
                         </div>
-                        <div className='blog-card-footer-two'>
-                            <small>126542</small>
-                            <small>123</small>
-                        </div>
+
                     </div>
                 </div>
 
 
-                <div>
-                    <div>
+
+                <div className='blog-card'>
+                    <div className='blog-card-header'>
                         <img src={blog1} alt="" />
-                        <h4>Dolor clita vero elitr sea stet dolor justo diam</h4>
+                        <h3>Dolor clita vero elitr sea stet dolor justo diam</h3>
                         <p>Dolor lorem eos dolor duo et eirmod sea. Dolor sit magna rebum clita rebum dolor stet amet justo</p>
                     </div>
 
                     <div className='blog-card-footer'>
                         <div className='blog-card-footer-one'>
-                        <img src={test1} alt="" />
-                            <small>John Doe</small>
+                            <img src={test1} alt="" />
+                            <small>Author: <span><small className='blogs-author'>John Doe</small></span> </small>
+
                         </div>
-                        <div className='blog-card-footer-two'>
-                            <small>126542</small>
-                            <small>123</small>
-                        </div>
+
                     </div>
                 </div>
 
 
-                <div>
-                    <div>
+
+                <div className='blog-card'>
+                    <div className='blog-card-header'>
                         <img src={blog1} alt="" />
-                        <h4>Dolor clita vero elitr sea stet dolor justo diam</h4>
+                        <h3>Dolor clita vero elitr sea stet dolor justo diam</h3>
                         <p>Dolor lorem eos dolor duo et eirmod sea. Dolor sit magna rebum clita rebum dolor stet amet justo</p>
                     </div>
 
                     <div className='blog-card-footer'>
                         <div className='blog-card-footer-one'>
-                        <img src={test1} alt="" />
-                            <small>John Doe</small>
+                            <img src={test1} alt="" />
+                            <small>Author: <span><small className='blogs-author'>John Doe</small></span> </small>
+
                         </div>
-                        <div className='blog-card-footer-two'>
-                            <small>126542</small>
-                            <small>123</small>
-                        </div>
+
                     </div>
                 </div>
 
 
-                <div>
-                    <div>
+                <div className='blog-card'>
+                    <div className='blog-card-header'>
                         <img src={blog1} alt="" />
-                        <h4>Dolor clita vero elitr sea stet dolor justo diam</h4>
+                        <h3>Dolor clita vero elitr sea stet dolor justo diam</h3>
                         <p>Dolor lorem eos dolor duo et eirmod sea. Dolor sit magna rebum clita rebum dolor stet amet justo</p>
                     </div>
 
                     <div className='blog-card-footer'>
                         <div className='blog-card-footer-one'>
-                        <img src={test1} alt="" />
-                            <small>John Doe</small>
+                            <img src={test1} alt="" />
+                            <small>Author: <span><small className='blogs-author'>John Doe</small></span> </small>
+
                         </div>
-                        <div className='blog-card-footer-two'>
-                            <small>126542</small>
-                            <small>123</small>
-                        </div>
+
                     </div>
                 </div>
 
-                <div>
-                    <div>
+
+                <div className='blog-card'>
+                    <div className='blog-card-header'>
                         <img src={blog1} alt="" />
-                        <h4>Dolor clita vero elitr sea stet dolor justo diam</h4>
+                        <h3>Dolor clita vero elitr sea stet dolor justo diam</h3>
                         <p>Dolor lorem eos dolor duo et eirmod sea. Dolor sit magna rebum clita rebum dolor stet amet justo</p>
                     </div>
 
                     <div className='blog-card-footer'>
                         <div className='blog-card-footer-one'>
-                        <img src={test1} alt="" />
-                            <small>John Doe</small>
+                            <img src={test1} alt="" />
+                            <small>Author: <span><small className='blogs-author'>John Doe</small></span> </small>
+
                         </div>
-                        <div className='blog-card-footer-two'>
-                            <small>126542</small>
-                            <small>123</small>
-                        </div>
+
                     </div>
                 </div>
 
 
-                <div>
-                    <div>
+                <div className='blog-card'>
+                    <div className='blog-card-header'>
                         <img src={blog1} alt="" />
-                        <h4>Dolor clita vero elitr sea stet dolor justo diam</h4>
+                        <h3>Dolor clita vero elitr sea stet dolor justo diam</h3>
                         <p>Dolor lorem eos dolor duo et eirmod sea. Dolor sit magna rebum clita rebum dolor stet amet justo</p>
                     </div>
 
                     <div className='blog-card-footer'>
                         <div className='blog-card-footer-one'>
-                        <img src={test1} alt="" />
-                            <small>John Doe</small>
+                            <img src={test1} alt="" />
+                            <small>Author: <span><small className='blogs-author'>John Doe</small></span> </small>
+
                         </div>
-                        <div className='blog-card-footer-two'>
-                            <small>126542</small>
-                            <small>123</small>
-                        </div>
+
                     </div>
                 </div>
-
-                <div>
-                    <div>
+              
+                <div className='blog-card'>
+                    <div className='blog-card-header'>
                         <img src={blog1} alt="" />
-                        <h4>Dolor clita vero elitr sea stet dolor justo diam</h4>
+                        <h3>Dolor clita vero elitr sea stet dolor justo diam</h3>
                         <p>Dolor lorem eos dolor duo et eirmod sea. Dolor sit magna rebum clita rebum dolor stet amet justo</p>
                     </div>
 
                     <div className='blog-card-footer'>
                         <div className='blog-card-footer-one'>
-                        <img src={test1} alt="" />
-                            <small>John Doe</small>
+                            <img src={test1} alt="" />
+                            <small>Author: <span><small className='blogs-author'>John Doe</small></span> </small>
+
                         </div>
-                        <div className='blog-card-footer-two'>
-                            <small>126542</small>
-                            <small>123</small>
-                        </div>
+
                     </div>
                 </div>
+                 
 
-                <div>
-                    <div>
+                <div className='blog-card'>
+                    <div className='blog-card-header'>
                         <img src={blog1} alt="" />
-                        <h4>Dolor clita vero elitr sea stet dolor justo diam</h4>
+                        <h3>Dolor clita vero elitr sea stet dolor justo diam</h3>
                         <p>Dolor lorem eos dolor duo et eirmod sea. Dolor sit magna rebum clita rebum dolor stet amet justo</p>
                     </div>
 
                     <div className='blog-card-footer'>
                         <div className='blog-card-footer-one'>
-                        <img src={test1} alt="" />
-                            <small>John Doe</small>
+                            <img src={test1} alt="" />
+                            <small>Author: <span><small className='blogs-author'>John Doe</small></span> </small>
+
                         </div>
-                        <div className='blog-card-footer-two'>
-                            <small>126542</small>
-                            <small>123</small>
-                        </div>
+
                     </div>
                 </div>
 
-                <div>
-                    <div>
+
+
+                <div className='blog-card'>
+                    <div className='blog-card-header'>
                         <img src={blog1} alt="" />
-                        <h4>Dolor clita vero elitr sea stet dolor justo diam</h4>
+                        <h3>Dolor clita vero elitr sea stet dolor justo diam</h3>
                         <p>Dolor lorem eos dolor duo et eirmod sea. Dolor sit magna rebum clita rebum dolor stet amet justo</p>
                     </div>
 
                     <div className='blog-card-footer'>
                         <div className='blog-card-footer-one'>
-                        <img src={test1} alt="" />
-                            <small>John Doe</small>
+                            <img src={test1} alt="" />
+                            <small>Author: <span><small className='blogs-author'>John Doe</small></span> </small>
+
                         </div>
-                        <div className='blog-card-footer-two'>
-                            <small>126542</small>
-                            <small>123</small>
-                        </div>
+
                     </div>
                 </div>
+            
+               
 
- 
 
 
 
-                      
+
             </div>
+
+
+             
 
         </nav>
     );
