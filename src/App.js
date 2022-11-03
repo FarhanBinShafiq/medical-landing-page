@@ -1,7 +1,9 @@
- 
+
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Blogs from "./components/Blogs/Blogs";
 import Clients from "./components/Clients/Clients";
 import Contact from "./components/Contact/Contact";
+// import Contact from "./components/Contact/Contact";
 import Neorology from "./components/Department/Neurology/Neorology";
 import Departments from "./components/Departments/Departments";
 import Doctor from "./components/Doctors/Doctor";
@@ -9,26 +11,36 @@ import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import Package from "./components/Package/Package";
- 
+
 import Services from "./components/Shared/Services/Services";
- 
+
 
 function App() {
   return (
     <div className="App">
-         <Header></Header>
-          {/* <Home/>
-        <Clients></Clients>
-         <Package/>
-        <Doctor></Doctor>  
-  <Departments></Departments>  */}
-        
 
-        {/* <Contact></Contact>  */}
-         {/* <Services></Services> */}
-         <Blogs></Blogs>
-      <Footer></Footer>
-       
+
+
+
+      <BrowserRouter>
+        <Header></Header>
+        {/* <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="home" element={<Home />}></Route>
+          <Route path="department" element={<Departments />}></Route>
+
+          <Route path="blogs" element={<Blogs />}></Route>
+          <Route path="clients" element={<Clients />}></Route>
+
+        </Routes>  */}
+
+        
+        <Footer></Footer> 
+
+        
+      </BrowserRouter>
+
+
     </div>
   );
 }

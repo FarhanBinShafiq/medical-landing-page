@@ -13,7 +13,7 @@ const Contact = () => {
             <Cards></Cards>
              
 
-            <div className='form-nav'>
+            <div className='form-navbar'>
                 <div>
                     <h3>Contact With Us</h3>
 
@@ -24,23 +24,23 @@ const Contact = () => {
                 <div className='conatct-form'>
                     <form action="">
                         <div className='form-first'>
-                            <input type="text" placeholder='Your First Name' />  <br/>
-                            <input type="text" placeholder='Your Last Name' />    <br/>
-                           < input type="text" placeholder=' Your Phone Number' />   <br/>
+                            <input className='conatct-input' type="text" placeholder='Your First Name' />  <br/>
+                            <input className='conatct-input'  type="text" placeholder='Your Last Name' />    <br/>
+                           < input className='conatct-input'  type="text" placeholder=' Your Phone Number' />   <br/>
                           
                         </div>
 
                         <div className='form-second'>
-                            <input type="text" placeholder='Your Query Topic' /><br/>
-                            <input type="text" placeholder='Your Email Address' /> <br/>
-                            <textarea name="comments" placeholder='Write your message here'></textarea>
+                            <input className='conatct-input'  type="text" placeholder='Your Query Topic' /><br/>
+                            <input className='conatct-input'  type="text" placeholder='Your Email Address' /> <br/>
+                            <textarea name="comments" className='contact-text-area' placeholder='Write your message here'></textarea>
                                                            
                         </div>
 
 
 
                    
-                        <button>Send Your message</button>
+                        <button className='contact-submit-btn'>Send Your message</button>
                     </form>
                 </div>
             </div> 

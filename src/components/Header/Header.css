@@ -1,126 +1,140 @@
 .Navbar {
-    height: 60px;
+  box-sizing: border-box;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f8f9fa;
+}
+
+
+.Navbar>.nav-items>a {
+ 
+  box-sizing: border-box;
+  font-family: "Exo", sans-serif;
+  text-transform: capitalize;
+  color: #222;
+  font-size: 16px;
+  text-decoration: none;
+  margin: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  position: relative;
+  transition: all .25s ease
+}
+
+.Navbar>.nav-items>a:hover {
+  border-bottom: 4px solid #e83e8c;
+  color: #e83e8c;
+  opacity: 1;
+
+}
+
+.Navbar>.nav-items>a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+
+  transition: all 0.45s;
+}
+
+.Navbar>.nav-items>a:hover::before {
+  width: 100%;
+}
+
+.Navbar>.nav-toggle {
+  display: none;
+}
+
+@media (max-width: 860px) {
+
+ .nav-logo{
+  margin-right: 80px;
+  position: relative;
+ }
+
+  .Navbar>.nav-items {
+    position: absolute;
+    top: 80px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    background-color: #f8f9fa;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(-100%);
+    transition: all .45s;
     align-items: center;
-    background: #5265c4;
-    padding: 0px 100px 0px 100px;
-    height: 80px;
- 
+  }
+
+  .Navbar>.nav-items>a {
+    display: block;
+    margin: 15px;
   }
   
- 
-  .Navbar > .nav-items > a {
- 
-    color: #ffffff;
-    font-size: 24px;
-    text-decoration: none;
-    margin: 40px;
-    font-weight: 600;
-    letter-spacing: 2px;
+  .Navbar>.nav-items>a::before {
+    background: transparent;
+     
+  }
+
+  
+  .Navbar>.nav-items.open {
+    transform: translateX(0);
+  }
+
+
+  
+  .Navbar>.nav-items.open {
+    transform: translateX(0);
+  }
+
+  
+  .Navbar>.nav-toggle {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .nav-toggle>.bar {
     position: relative;
-   
+    width: 32px;
+    height: 2px;
+    background: #dc1313;
+    transition: all 0.45s ease-in-out;
   }
-  
-  .Navbar > .nav-items > a:hover {
-    opacity: 1;
-    
-  }
-  
-  .Navbar > .nav-items > a::before {
+
+
+  .nav-toggle>.bar::before,
+  .nav-toggle>.bar::after {
     content: "";
     position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 0;
     height: 2px;
-    background: #ffffff;
-    transition: all 0.45s;
+    background: #dc1313;
+    border-radius: 2px;
+    transition: all 0.45s ease-in-out;
   }
-  
-  .Navbar > .nav-items > a:hover::before {
-    width: 100%;
-  }
-  
-  .Navbar > .nav-toggle {
-    display: none;
-  }
-  
-  @media (max-width: 860px) {
 
-  
-
-    .Navbar > .nav-items {
-      position: absolute;
-      top: 80px;
-      display: flex;
-      flex-direction: column;
-      background: #3b4da7;
-      left: 0;
-      width: 100%;
-      height: 100vh;
-      transform: translateX(-100%);
-      transition: all .45s;
-      align-items: center;
-    }
-
-    .Navbar > .nav-items > a{
-      display: block;
-      margin: 15px;
-    }
-  
-    .Navbar > .nav-items > a::before {
-        background: transparent;
-    }
-  
-    .Navbar > .nav-items.open {
-        transform: translateX(0);
-    }
-  
-    .Navbar > .nav-toggle {
-      display: flex;
-      width: 50px;
-      height: 50px;
-      align-items: center;
-      justify-content: center;
-      cursor: pointer;
-    }
-  
-    .nav-toggle > .bar {
-      position: relative;
-      width: 32px;
-      height: 2px;
-      background: #ffffff;
-      transition: all 0.45s ease-in-out;
-    }
-  
-   
-    .nav-toggle > .bar::before,
-    .nav-toggle > .bar::after {
-      content: "";
-      position: absolute;
-      height: 2px;
-      background: #ffffff;
-      border-radius: 2px;
-      transition: all 0.45s ease-in-out;
-    }
-  
-    .nav-toggle > .bar::before {
-      width: 25px;
-      transform: translateY(-8px);
-      right: 0;
-    }
-     
-    .nav-toggle > .bar::after {
-      width: 32px;
-      transform: translateY(8px);
-    }
-  
-   
-    
-  
-   
-  
-    
+  .nav-toggle>.bar::before {
+    width: 25px;
+    transform: translateY(-8px);
+    right: 0;
   }
-  
+
+  .nav-toggle>.bar::after {
+    width: 32px;
+    transform: translateY(8px);
+  }
+
+
+
+
+
+
+
+}
