@@ -1,78 +1,86 @@
- h4 {
-     font-size: 28px;
-     font-weight: 600px;
- }
+* {
+    box-sizing: border-box;
+}
 
- span {
-     padding-right: 30px;
-     font-size: 28px;
- }
+.cards-container {
+    padding-top: 50px;
+    padding-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
 
- .card p {
-     font-size: 18px;
-     letter-spacing: 1px;
- }
+.card {
+    text-align: center;
+    width: 80%;
 
- .cards-container {
- 
-         padding-top: 50px;
-     display: grid;
-     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  
-    
+    border: 5px solid #EEF2F6;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
 
 
- }
+.card>h4 {
+    font-size: 24px;
+    font-family: "Exo", sans-serif;
+    font-weight: 700;
+    color: #222;
+}
 
+.card-icon {
+    font-size: 50px;
+    margin-bottom: 15px;
+    display: inline-block;
+    color: #e12454;
+}
 
-
- .card {
-  
-     text-align: center;
-     margin-left: 30px;
-     margin-right: 30px;
-     border: 1px solid black;
-    
- }
-
-
- 
-
- @media screen and (max-width:768px) {
-
-    h4 {
-        font-size: 22px;
-        font-weight: 400px;
+    .card>p{
+        
+        font-family: "Exo", sans-serif;
+        font-weight: 300;
+        color: #222;
     }
-   
-    span {
-         
-        font-size: 22px;
+
+@media screen and (max-width:1000px) {
+    .card {
+        margin-top: 3%;
     }
-   
-    .card p {
-        font-size: 16px;
-        letter-spacing: 1px;
+
+}
+
+
+@media screen and (max-width:768px) {
+
+    .cards-container {
+        padding-left: 50px;
     }
-   
- 
 
-     .cards-container {
-         margin-left: 60px;
-         display: block;
-         height: 50vh;
-         width: 80%;
+    .card {
 
-     }
-
-     .card {
-         padding-top: 0;
-         margin-left: 30px;
-         margin-right: 30px;
-         border: 1px solid black;
-         margin-top: 20px;
-     }
+        width: 85%;
+        padding-top: 18%;
+    }
 
 
+}
 
- }
+
+@media screen and (max-width:650px) {
+    .card {
+        padding-top: 10%;
+    }
+}
+
+
+@media screen and (max-width:400px) {
+
+    .cards-container {
+        padding-left: 10px;
+    }
+
+
+    .card {
+
+
+        width: 90%;
+    }
+}

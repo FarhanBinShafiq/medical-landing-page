@@ -13,6 +13,7 @@ import Home from "./components/Home/Home";
 import Package from "./components/Package/Package";
 
 import Services from "./components/Shared/Services/Services";
+import Cards from "./components/Shared/Cards/Cards";
 
 
 function App() {
@@ -33,9 +34,9 @@ function App() {
           <Route path="clients" element={<Clients />}></Route>
 
         </Routes>  */}
-
-        
-        <Footer></Footer> 
+       <Cards/>
+        {/* <Services/>  */}
+        {/* <Footer></Footer>  */}
 
         
       </BrowserRouter>

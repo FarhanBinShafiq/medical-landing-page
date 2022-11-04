@@ -10,19 +10,20 @@ const Cards = () => {
             <div className='cards-container'>
                  <div className='card'>  
                        
-                       <p><span><BsFillTelephoneForwardFill/></span></p>
+                       <p><BsFillTelephoneForwardFill className='card-icon'/> </p>
                        <h4>Call Us</h4>
                        <p>+22-10896310256</p>                  
                  </div>
 
                  <div className='card'>  
-                       <p><span><AiOutlineMail/></span></p>
+                       <p> <AiOutlineMail className='card-icon'/> </p>
                        <h4>Email Us</h4>
-                       <p>hospital10237@gmail.com</p>                  
+                       <p>Contact@gmail.com</p>
+                                 
                  </div>
 
-                 <div className='card'>  
-                      <p><span><FaMapMarker/></span></p>
+                 <div className='card' id='card-third'>  
+                      <p> <FaMapMarker className='card-icon'/> </p>
                        <h4>Location</h4>
                        <p>Dhaka ,Bangladesh</p>                  
                  </div>
