@@ -38,7 +38,7 @@ function App() {
         {/* <Services/>  */}
         {/* <Footer></Footer>  */}
         
-        <Nav></Nav>
+      
         
       </BrowserRouter>
 
