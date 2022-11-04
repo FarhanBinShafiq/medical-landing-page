@@ -11,39 +11,27 @@ const Contact = () => {
             </div>
 
             <Cards></Cards>
-             
+
 
             <div className='form-navbar'>
-                <div>
-                    <h3>Contact With Us</h3>
+                <div className='form-nav-top'>
+                    <h3>Contact</h3>
 
-                    <p>For Appoinment call us or email.</p>
+                    <p>For Appoinment call or email us.</p>
 
                 </div>
 
                 <div className='conatct-form'>
                     <form action="">
-                        <div className='form-first'>
-                            <input className='conatct-input' type="text" placeholder='Your First Name' />  <br/>
-                            <input className='conatct-input'  type="text" placeholder='Your Last Name' />    <br/>
-                           < input className='conatct-input'  type="text" placeholder=' Your Phone Number' />   <br/>
-                          
-                        </div>
-
-                        <div className='form-second'>
-                            <input className='conatct-input'  type="text" placeholder='Your Query Topic' /><br/>
-                            <input className='conatct-input'  type="text" placeholder='Your Email Address' /> <br/>
-                            <textarea name="comments" className='contact-text-area' placeholder='Write your message here'></textarea>
-                                                           
-                        </div>
-
-
-
-                   
-                        <button className='contact-submit-btn'>Send Your message</button>
+                        <input className='conatct-input' type="text" placeholder='Your Full Name' />
+                        < input className='conatct-input' type="text" placeholder=' Your Phone Number' />
+                        <input className='conatct-input' type="text" placeholder='Your Query Topic' />
+                        <input className='conatct-input' type="text" placeholder='Your Email Address' />
+                        <textarea name="comments" className='contact-text-area' placeholder='Write your message here'></textarea><br />
+                        <button className='contact-submit-btn'>Send Your Message</button>
                     </form>
                 </div>
-            </div> 
+            </div>
 
         </div>
     );

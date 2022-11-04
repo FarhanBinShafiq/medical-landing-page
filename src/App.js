@@ -13,7 +13,7 @@ import Home from "./components/Home/Home";
 import Package from "./components/Package/Package";
 
 import Services from "./components/Shared/Services/Services";
-import Cards from "./components/Shared/Cards/Cards";
+ 
 
 
 function App() {
@@ -25,16 +25,17 @@ function App() {
 
       <BrowserRouter>
         <Header></Header>
-        {/* <Routes>
-          <Route path="/" element={<Home />}></Route>
+      <Routes>
+          {/* <Route path="/" element={<Home />}></Route>
           <Route path="home" element={<Home />}></Route>
           <Route path="department" element={<Departments />}></Route>
+<Route path="clients" element={<Clients />}></Route>
+          <Route path="blogs" element={<Blogs />}></Route> */}
+          
+          <Route path="contact" element={<Contact/>}></Route>
 
-          <Route path="blogs" element={<Blogs />}></Route>
-          <Route path="clients" element={<Clients />}></Route>
-
-        </Routes>  */}
-       <Cards/>
+        </Routes>  
+        
         {/* <Services/>  */}
         {/* <Footer></Footer>  */}
         

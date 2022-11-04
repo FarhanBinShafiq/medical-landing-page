@@ -1,18 +1,19 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    
+
 }
 
-.contact-top{
+.contact-top {
     background-image: url('../../images/bg-4.jpg');
-    height: 280px;
+    height: 250px;
     padding-top: 5%;
-    opacity: 0.5;
+    opacity: 0.2;
+    background-repeat: no-repeat;
 }
 
-.contact-top h6{
-    
+.contact-top h6 {
+
     font-size: 36px;
     text-transform: uppercase;
     flex-direction: column;
@@ -21,116 +22,140 @@
     text-align: center;
 }
 
-.contact-top p{
+.contact-top p {
     text-align: center;
 }
 
 
 
-.form-navbar{
+.form-navbar {
     text-align: center;
-    
     padding-top: 30px;
-    width:100%;
+    width: 100%;
 }
 
-.conatct-form{
+.form-nav-top>h3 {
+    font-family: "Exo", sans-serif;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.form-nav-top>p {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #6F8BA4;
+    font-weight: 400;
+}
+
+.conatct-form {
     padding-top: 40px;
-    text-align: center;
+
 }
 
-.form-first .form-second,.conatct-input {
+.conatct-input {
 
-       border-radius: 5px;
-       margin-bottom: 20px;
-       margin-left: 20px;
-       width: 35%;
-       height: 60px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    width: 40%;
+    height: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #EEF2F6;
+    box-shadow: 1px 2px 1px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-left: 20px;
+
 }
 
- 
-.contact-submit-btn{
+
+.contact-text-area {
+    border-radius: 10px;
+    border: none;
+    background-color: #EEF2F6;
+    box-shadow: 1px 2px 1px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    width: 81%;
+    height: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 0px;
+    padding-top: 2%;
+    padding-bottom: 10%;
+    margin-left: 10px;
+}
+
+
+.contact-submit-btn {
+    cursor: pointer;
+    margin-right: 50%;
     border-radius: 5px;
     font-size: 22px;
     font-weight: 500;
-    background-color: #d8e8d9;
     margin-top: 20px;
     height: 60px;
     width: 30%;
+    background-color: #223a66;
+    color: #fff;
+    border-color: #223a66
 }
 
 
-.contact-text-area,.conatct-input {
-    width: 50%;
-    height: 40px;
-    border-radius: 5px;
-    border: none;
-    background: #d7ffdb;
-    box-shadow: 0 2px 0px ;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 16px;
-    color: #757575;
-    height: 122px;
-   margin-left: 10px;  
-    
-     
-  }
+.contact-submit-btn:hover{
+    background-color: #e83e8c;;
+}
 
-  
- 
+
+
+
 
 
 @media screen and (max-width:768px) {
-   
+    
+    .form-navbar {
+        margin-left: 5%;
+    }
+    
+    .form-nav-top>h3 {
+        margin-right: 40px;
+    }
+    
+    .form-nav-top>p {
+        margin-right: 40px;
+    }
+    
 
-    .form-navbar{
-         margin-top: 0;
-        padding-top: 0;
-    
-    }
-    
-    .conatct-form{
-        padding-top: 10;
-        
-    }
-    
-    .form-first .form-second, input{
-           box-sizing: border-box;
-           width: 60%;
-           height: 30px;
+
+
+    .conatct-input {
+        padding-top: 4%;
+        padding-bottom: 4%;
+        box-sizing: border-box;
+        width: 78%;
+        display: block;
+
     }
 
-    .contact-text-area{
-        width: 60%;
-        height: 40px;
+
+    .contact-text-area {
+       margin-left: 4%;
+        width: 78%;
+        display: block;
+        padding-top: 8%;
+        padding-bottom: 12%;
+
+    }
+
+
+    .contact-submit-btn {
         border-radius: 5px;
-        border: none;
-        background: #d7ffdb;
-        box-shadow: 0 2px 0px ;
-        font-family: 'Quicksand', sans-serif;
-        font-size: 16px;
-        color: #757575;
-        height: 122px;
-       margin-left: 10px;  
-        
-         
-      }
-    
-    
-   
-    
-    .contact-submit-btn{
-        border-radius: 5px;
-        font-size: 14px;
+        font-size: 18px;
         font-weight: 300;
-        background-color: aquamarine;
-        margin-top: 20px;
-        margin-left: 0;
-        
+        margin-left: 20%;
     }
-    
+
 }
-
-
-
- 
