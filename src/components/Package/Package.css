@@ -88,6 +88,7 @@
 
     .package>p {
         display: none;
+       
     }
 
     .package-container {
@@ -96,10 +97,8 @@
         padding: 0;
     }
 
-    .package-home-card {
-        margin-left: 4%;
-    }
-
+    
+    
     .package-card>h6 {
         margin-top: 1px;
         font-size: 24px;
@@ -121,9 +120,12 @@
         text-transform: capitalize;
         font-family: "Roboto", sans-serif;
         color: #223a66;
-        letter-spacing: 2px;
-        text-transform: uppercase;
-        text-align: center;
+        letter-spacing: 1px;
+         
+    }
+
+    .package-card{
+        margin-left: 7%;
     }
 
 
