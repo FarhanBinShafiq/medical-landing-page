@@ -9,6 +9,7 @@ import { Pagination, Navigation } from "swiper";
 import Cards from '../Shared/Cards/Cards';
 import Services from '../Shared/Services/Services';
 import Clients from '../Clients/Clients';
+import Departments from '../Departments/Departments';
 import Package from '../Package/Package';
 
 
@@ -65,6 +66,7 @@ const Home = () => {
             </Swiper>
             <Cards></Cards>
             <Package></Package>
+            <Departments/>
             {/* 
                 <Services></Services>
                 

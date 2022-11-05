@@ -3,13 +3,34 @@
     width: 90%;
     height: auto;
     margin-left: 85px;
-    background-color: rgb(158, 230, 103);
+    background-color: rgb(252, 226, 226);
     padding-left: 70px;
     padding-top: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 
+.cardiology-detail>p{
+    padding-top: 15px;
+    font-size: 16px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    line-height: 2rem;
+}
+
+
+
+.cardiology-checkup h6{
+    text-transform:uppercase;
+    color: #e12454;
+}
+
+.cardiology-checkup p{
+    font-size: 16px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    line-height: 2rem;
+}
 .cardiology-detail {
     grid-column-start: 1;
     grid-column-end: 3;
@@ -42,7 +63,7 @@
     .cardiology-contaniner {
         width: 100%;
         margin-top: 10px;
-        background-color: azure;
+        background-color: rgb(252, 226, 226);
         margin-left: 0;
         padding-left: 0;
         padding-top: 20px;
@@ -50,9 +71,22 @@
     }
 
     .cardiology-img {
-        margin-left: 0;
-        box-sizing: border-box;
-        height: auto;
-        width: 100%;
+      display:none;
+    }
+
+    .cardiology-detail>p{
+        padding-top: 13px;
+        font-size: 16px;
+    
+        letter-spacing: 1px;
+        line-height: rem;
+    }
+     
+
+    .cardiology-checkup p{
+        font-size: 12px;
+       
+        letter-spacing: 1px;
+        line-height: 1rem;
     }
 }

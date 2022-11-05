@@ -20,7 +20,7 @@ const Surgical = () => {
                             <img src={iconOne} alt="" />
                         </div>
                         <div>
-                            <p>PRIMARY CARE</p>
+                            <h6>PRIMARY CARE</h6>
                             <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
                         </div>
                     </div>
@@ -31,7 +31,7 @@ const Surgical = () => {
                             <img src={iconTwo} alt="" />
                         </div>
                         <div>
-                            <p>Lab Test</p>
+                            <h6>Lab Test</h6>
                             <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
                         </div>
                     </div>
@@ -42,7 +42,7 @@ const Surgical = () => {
                             <img src={iconThree} alt="" />
                         </div>
                         <div>
-                            <p>SYMPTOM CHECK</p>
+                            <h6>SYMPTOM CHECK</h6>
                             <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
                         </div>
                     </div>
@@ -52,7 +52,7 @@ const Surgical = () => {
                             <img src={iconFour} alt="" />
                         </div>
                         <div>
-                            <p>Heart Rate</p>
+                            <h6>Heart Rate</h6>
                             <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
                         </div>
                     </div>

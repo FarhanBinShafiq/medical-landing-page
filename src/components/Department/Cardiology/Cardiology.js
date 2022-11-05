@@ -19,7 +19,7 @@ const Cardiology = () => {
                             <img src={iconOne} alt="" />
                         </div>
                         <div>
-                            <p>PRIMARY CARE</p>
+                            <h6>PRIMARY CARE</h6>
                             <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
                         </div>
                     </div>
@@ -30,7 +30,7 @@ const Cardiology = () => {
                             <img src={iconTwo} alt="" />
                         </div>
                         <div>
-                            <p>SYMPTOM CHECK</p>
+                            <h6>SYMPTOM CHECK</h6>
                             <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
                         </div>
                     </div>
@@ -40,7 +40,7 @@ const Cardiology = () => {
                             <img src={iconThree} alt="" />
                         </div>
                         <div>
-                            <p>LAB TEST</p>
+                            <h6>LAB TEST</h6>
                             <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
                         </div>
                     </div>
@@ -51,7 +51,7 @@ const Cardiology = () => {
                             <img src={iconFour} alt="" />
                         </div>
                         <div>
-                            <p>HEART RATE</p>
+                            <h6>HEART RATE</h6>
                             <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
                         </div>
                     </div>

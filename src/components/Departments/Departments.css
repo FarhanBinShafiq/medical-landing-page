@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    font-family: "Exo", sans-serif;
+    
 }
 
 
@@ -13,11 +15,12 @@
 .department-top>h5 {
     font-size: 30px;
     font-weight: 800;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .department-top>p {
-    padding-top: 10px;
+    font-family: "Exo", sans-serif;
+    text-transform: capitalize;
+    padding-top: 20px;
     letter-spacing: 2px;
 }
 
@@ -28,7 +31,7 @@
     width: 90%;
     text-align: center;
     justify-content: center;
-    background-color: rgb(143, 15, 15);
+    background-color: #e12454;
     margin-top: 20px;
     display: flex;
     justify-content: space-evenly;
@@ -47,12 +50,12 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 28px;
-    color: aquamarine;
+    color: #fff;
 }
 
 .department-menu ul li:hover{
  
-    background-color: blueviolet;
+    background-color: #6F8BA4;
    
 }
 

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import Cardiology from '../Department/Cardiology/Cardiology';
 import Dental from '../Department/Dental/Dental';
  
@@ -11,28 +12,7 @@ const Departments = () => {
 
     const [active, setActive] = useState('FirstCard');
 
-//     const handleFirst=(e)=>{
-//            e.preventDefault();
-//            setActive('FirstCard')
-//     }
-
-//     const handlesecond=(e)=>{
-//         e.preventDefault();
-//         setActive('SecondCard')
-//  }
-
-
-//  const handleThird=(e)=>{
-//     e.preventDefault();
-//     setActive('ThirdCard')
-// }
-
-
-// const handleFour=(e)=>{
-//     e.preventDefault();
-//     setActive('FourCard')
-// }
-
+ 
 
     return (
         <div>
@@ -44,10 +24,10 @@ const Departments = () => {
 
             <div className='department-menu'>
                 <ul>
-                    <li><a onClick={()=>setActive('FirstCard')} a="#neurology"> Neurology</a></li>
-                    <li><a  onClick={()=>setActive('SecondCard')}  href="#"> Surgical</a></li>
-                     <li><a  onClick={()=>setActive('ThirdCard')}  href="#"> Dental</a></li>
-                    <li><a  onClick={()=>setActive('FourthCard')}  href="#"> Cardiology</a></li> 
+                    <li><Link onClick={()=>setActive('FirstCard')} to="#neurology"> Neurology</Link></li>
+                    <li><Link  onClick={()=>setActive('SecondCard')}  to="#"> Surgical</Link></li>
+                     <li><Link  onClick={()=>setActive('ThirdCard')}  to="#"> Dental</Link></li>
+                    <li><Link  onClick={()=>setActive('FourthCard')}  to="#"> Cardiology</Link></li> 
                 </ul>
             </div>
 
