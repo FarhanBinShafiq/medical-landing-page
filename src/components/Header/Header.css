@@ -9,7 +9,7 @@
 
 
 .Navbar>.nav-items>a {
- 
+
   box-sizing: border-box;
   font-family: "Exo", sans-serif;
   text-transform: capitalize;
@@ -37,7 +37,6 @@
   bottom: 0;
   width: 0;
   height: 2px;
-
   transition: all 0.45s;
 }
 
@@ -51,10 +50,10 @@
 
 @media (max-width: 860px) {
 
- .nav-logo{
-  margin-right: 80px;
-  position: relative;
- }
+  .nav-logo {
+    margin-right: 80px;
+    position: relative;
+  }
 
   .Navbar>.nav-items {
     position: absolute;
@@ -74,24 +73,24 @@
     display: block;
     margin: 15px;
   }
-  
+
   .Navbar>.nav-items>a::before {
     background: transparent;
-     
+
   }
 
-  
+
   .Navbar>.nav-items.open {
     transform: translateX(0);
   }
 
 
-  
+
   .Navbar>.nav-items.open {
     transform: translateX(0);
   }
 
-  
+
   .Navbar>.nav-toggle {
     display: flex;
     width: 50px;

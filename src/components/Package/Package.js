@@ -13,14 +13,31 @@ const Package = () => {
                 </p>
             </div>
 
-            <div className='package-img'>
-                <img className='image-one' src={img2} alt="" />
-                  
-                <div className='package-img-detail'>
-                    <img className='image-two' src={img1} alt="" />
-                     <button>Read More  <span> <FaArrowRight/></span></button>
+            <div className='package-home-card'>
+
+                <div className='package-card'>
+                    <img src={img2} alt="" />
+                    <h6>Child Care</h6>
+                    <p>Saepe nulla praesentium eaque omnis perferendis a doloremque </p>
+                    <button>Read More</button>
                 </div>
+
+                <div className='package-card'>
+                    <img src={img2} alt="" />
+                    <h6>Personal Care</h6>
+                    <p>Saepe nulla praesentium eaque omnis perferendis a doloremque.    </p>
+                    <button>Read More</button>
+                </div>
+
+                <div className='package-card'>
+                    <img src={img2} alt="" />
+                    <h6>Examination & Test</h6>
+                    <p>Saepe nulla praesentium eaque omnis perferendis a doloremque. </p>
+                    <button>Read More</button>
+                </div>
+
             </div>
+
         </div>
     );
 };

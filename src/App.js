@@ -26,12 +26,12 @@ function App() {
       <BrowserRouter>
         <Header></Header>
       <Routes>
-          {/* <Route path="/" element={<Home />}></Route>
-          <Route path="home" element={<Home />}></Route>
+          {/* 
           <Route path="department" element={<Departments />}></Route>
 <Route path="clients" element={<Clients />}></Route>
           <Route path="blogs" element={<Blogs />}></Route> */}
-          
+          <Route path="/" element={<Home />}></Route>
+          <Route path="home" element={<Home />}></Route>
           <Route path="contact" element={<Contact/>}></Route>
 
         </Routes>  

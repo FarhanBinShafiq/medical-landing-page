@@ -1,154 +1,154 @@
-.package-container{
+.package-container {
     margin-top: 20px;
     padding: 30px;
 }
 
-.package h1{
+.package>h1 {
+
     font-size: 38px;
+    text-transform: capitalize;
+    font-family: "Roboto", sans-serif;
+    color: #223a66;
     letter-spacing: 2px;
     text-transform: uppercase;
     text-align: center;
 }
 
-.package p{
+.package>p {
     font-size: 20px;
+    text-transform: capitalize;
+    font-family: "Roboto", sans-serif;
+    color: #223a66;
     text-align: center;
     letter-spacing: 2.5px;
     padding: 8px;
 }
 
 
-.package-container .package-img{
+.package-home-card {
+
+
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-  .package-img{
-    padding-left: 5%;
-    border: 20px solid red;
-    
-  }
+.package-card {
 
-.package-container .package-img img{
-    padding-top: 50px;
-    width: 90%;
- 
- }
+    margin-top: 3%;
+    height: 80vh;
+    border: 5px solid #EEF2F6;
+    width: 85%;
+}
 
+.package-card>img {
+    height: 50%;
 
-.package-img .image-one{
-    height: 90%;
+}
+
+.package-card>h6 {
   
-}
-
-.package-img .image-one:hover{
-    position: relative;
-    transition: .5s ease-in-out;
-    height: 100%;
-  
-}
-
-
-.package-img .image-two{
-    height: 90%;
-    
-}
-
-.package-img .image-two:hover{
-    position: relative;
-    transition: .5s ease-in-out;
-    height: 100%;
-    
-}
-
-.package-img-detail{
-    display: grid;
-    grid-template-rows: repeat(auto-fit,minmax(500px,.05fr));
-}
-
-.package-img-detail button{
-    height: 60px;
-    border-radius: 5px;
-    font-size: 20px;
-    letter-spacing: 2px;
+    margin-top: 3px;
+    font-size: 30px;
     text-transform: uppercase;
-    background-color: black;
-    color: brown;
-    width: 50%;
+    font-family: "Exo", sans-serif;
+    color: #223a66;
+    letter-spacing: 2.5px;
+
 }
 
-.package-img-detail button:hover{
-    background-color: antiquewhite;
+.package-card>p {
+    margin-left: 4%;
+    font-size: 16px;
+    font-family: "Exo", sans-serif;
+    color: #050505;
+    letter-spacing: 1px;
+}
+
+.package-card>button {
+    margin-left: 5%;
+    margin-top: 4%;
+    border-radius: 50px;
+    cursor: pointer;
+    background: #e12454;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    padding: 0.75rem 2rem;
+    font-family: "Exo", sans-serif;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    transition: all .35s ease
 }
 
 
+@media screen and (max-width:877px) {
 
+    .package>p {
+        display: none;
+    }
+
+    .package-container {
+
+        margin-top: 20px;
+        padding: 0;
+    }
+
+    .package-home-card {
+        margin-left: 4%;
+    }
+
+    .package-card>h6 {
+        margin-top: 1px;
+        font-size: 24px;
+        letter-spacing: 1.5px;
+
+    }
+
+    .package-card {
+        height: auto;
+    }
+
+}
 
 @media screen and (max-width:768px) {
 
-    .package-container{
-        margin-top: 0;
-        padding: 5px;
-    }
-    
+    .package>h1 {
 
-    
-.package h1{
-    font-size: 28px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-.package p{
-    font-size: 16px;
-    text-align: center;
-    letter-spacing: 1.5px;
-    padding: 5px;
-}
-
-    
-    .package-container .package-img {
-        display: block;
-        margin: 10px;
-       
-    }
-
-    .package-container .package-img img{
-        padding-top: 30px;
-       
-     
-     }
-    
-    
-    .package-img .image-one{
-        height: 100%;
-      
-    }
-    
-    
-    
-    .package-img .image-two{
-        height: 90%;
-        
-        
-    }
-    
-   .package-img-detail button{
-        height: 40px;
-        border-radius: 5px;
-        font-size: 14px;
+        font-size: 28px;
+        text-transform: capitalize;
+        font-family: "Roboto", sans-serif;
+        color: #223a66;
         letter-spacing: 2px;
         text-transform: uppercase;
-        background-color: black;
-        color: brown;
-        width: 40%;
-        margin-bottom: 10px;
+        text-align: center;
     }
-    
-     
-    
-    
-    
+
+
+
+    .package-home-card {
+        margin-left: 2%;
+    }
+
+    .package-card>h6 {
+        margin-top: 3px;
+        font-size: 26px;
+        letter-spacing: 1.5px;
+
+    }
+
+    .package-card>p {
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+
+}
+
+
+@media screen and (min-width:1024px) {
+    .package-card{
+        height: 70vh;
+    }
 }
