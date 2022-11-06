@@ -9,8 +9,7 @@ const Package = () => {
         <div className='package-container'>
             <div className='package'>
                 <h1>Best Of Health care for you</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,   quis</p>
             </div>
 
             <div className='package-home-card'>

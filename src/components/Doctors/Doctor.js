@@ -3,29 +3,38 @@ import DoctorsDetail from '../DoctorsDetail/DoctorsDetail';
 import './Doctor.css'
 
 const Doctor = () => {
-    const [doctors,setDoctors]=useState([]);
+    const [doctors, setDoctors] = useState([]);
 
-    useEffect(()=>{
+    useEffect(() => {
         fetch('./doctors.json')
-        .then(res=>res.json())
-        .then(data=>setDoctors(data))
-    },[])
+            .then(res => res.json())
+            .then(data => setDoctors(data))
+    }, [])
     return (
-        <div className='doctor-container'>
-            <h2> We have best Doctors in country</h2>
-            <h6>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,</h6>
-           
-           <div className='doctors-list'> 
-             {
-                doctors.map(doctor=>
-                      
-                        <DoctorsDetail  key={doctor.id} doctor={doctor}></DoctorsDetail>
-                      
-                    )
-             } 
-             </div>   
-      
-        </div>
+        <>
+
+            <div className='doctor-top-part'>
+               
+                <h1>Specalized Doctors</h1>
+            </div>
+
+             <div className='doctor-container'>
+
+
+                <h2> We have best Doctors in country</h2>
+                 
+                <div className='doctors-list'>
+                    {
+                        doctors.map(doctor =>
+
+                            <DoctorsDetail key={doctor.id} doctor={doctor}></DoctorsDetail>
+
+                        )
+                    }
+                </div>
+
+            </div> 
+        </>
     );
 };
 

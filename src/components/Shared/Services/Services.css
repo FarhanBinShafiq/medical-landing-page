@@ -1,48 +1,106 @@
-.services-top{
-    background-color: rgb(222, 236, 232);
-    padding-top: 40px;
+.services-top {
     text-align: center;
- 
-}
-
-
-.services-top-boxs{
-    padding-top: 80px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
-    padding-bottom: 25px;
-}
-
-.services-top-boxs img{
-    height: 100px;
-    width: 45%;
   
 }
 
-.services-top-box{
-    color: white;
-    background-color: black;
+
+.services-top-boxs {
+    padding-top: 3%;
+    padding-left: 10%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding-bottom: 3%;
+}
+
+.services-top-boxs img {
+    height: 10vh;
+    width: 50%;
+
+}
+
+.services-top-box {
+    color: rgb(255, 255, 255);
+    background-color: #000000;
     border-radius: 10px;
     padding-top: 40px;
     box-sizing: border-box;
-    padding-left: 20px;
-    width: 280px;
-    height: 280px;
-    margin-left: 250px;
+    width: 220px;
+    height: 220px;
     border: 2px solid red;
-   
 }
 
-.services-top-box:hover{
-    background-color: aquamarine;
- 
-   
+.services-top-box:hover {
+    background-color: #e12454;
 }
 
 
-#box-1{
-    background-color: aquamarine !important;
+.services-top-box>h4 {
+    font-family: "Roboto", sans-serif;
+    padding-top: 4%;
+    font-size: 22px;
+    color: #6F8BA4;
+    font-weight: 400;
+}
+
+.services-top>h1 {
+    font-family: "Roboto", sans-serif;
+    padding-top: 4%;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #6F8BA4;
+    font-weight: 400;
 }
 
 
- 
+.services-top>p{
+    font-family: "Roboto", sans-serif;
+    padding-top: 2%;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #6F8BA4;
+    font-weight: 400;
+}
+
+
+@media screen and (max-width:768px){
+    .services-top-boxs {
+        padding-left: 10%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      
+    }
+
+    .services-top-box{
+        margin-top: 2%;
+    }
+
+    .services-top>h1 {
+        font-size: 15px;
+        font-weight: 300;
+    }
+    
+    
+    .services-top>p{
+        font-size: 15px;
+        font-weight: 100;
+    }
+} 
+
+@media screen and (max-width:600px) {
+    .services-top-boxs {
+        padding-left: 30%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      
+    }
+
+
+
+    .services-top-box {
+        margin-top: 4%;
+        width: 200px;
+        height: 200px;
+         
+    }
+    
+}

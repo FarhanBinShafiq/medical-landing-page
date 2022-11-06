@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Blogs from "./components/Blogs/Blogs";
 import Clients from "./components/Clients/Clients";
 import Contact from "./components/Contact/Contact";
-// import Contact from "./components/Contact/Contact";
+ 
 import Neorology from "./components/Department/Neurology/Neorology";
 import Departments from "./components/Departments/Departments";
 import Doctor from "./components/Doctors/Doctor";
@@ -26,12 +26,12 @@ function App() {
       <BrowserRouter>
         <Header></Header>
       <Routes>
-          {/* 
-          <Route path="department" element={<Departments />}></Route>
-<Route path="clients" element={<Clients />}></Route>
-          <Route path="blogs" element={<Blogs />}></Route> */}
-          <Route path="/" element={<Home />}></Route>
+      <Route path="/" element={<Home />}></Route>
           <Route path="home" element={<Home />}></Route>
+          <Route path="department" element={<Departments />}></Route>
+          <Route path="doctor" element={<Doctor />}></Route>
+          <Route path="blogs" element={<Blogs />}></Route> 
+      
           <Route path="contact" element={<Contact/>}></Route>
 
         </Routes>  

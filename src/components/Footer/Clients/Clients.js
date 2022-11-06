@@ -1,24 +1,34 @@
 import React from 'react';
 import './Clients.css';
+import { useRef, useState } from "react";
+// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
 import "swiper/css";
 import "swiper/css/scrollbar";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+
 import testOne from '../../images/test-thumb1.jpg'
 import testTwo from '../../images/test-thumb2.jpg'
 import testThree from '../../images/test-thumb3.jpg'
 import testFour from '../../images/test-thumb4.jpg'
+
 import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 
 
 // import required modules
-import { Keyboard, Navigation, Pagination } from "swiper";
+import { Keyboard, Scrollbar, Navigation, Pagination } from "swiper";
 
 const Clients = () => {
     return (
         <div className='clients-top-heading'>
             <h2>We served over 5000+ Patients</h2>
+            <p></p>
+
+
+
             <Swiper
                 slidesPerView={1}
                 centeredSlides={false}
@@ -43,6 +53,7 @@ const Clients = () => {
             >
 
                 <div className='clients-nav'>
+
                     <SwiperSlide >
                         <div className='clients-container'>
                             <div className='clients'>
@@ -52,8 +63,11 @@ const Clients = () => {
                                 <div>
                                     <h6>Amazing service</h6>
                                     <p>Kolis Sarth</p>
+
                                 </div>
+
                             </div>
+
                             <p> <span><FaQuoteLeft /></span> Lets know moreel necessitatibus dolor asperiores illum possimus sint voluptates incidunt molestias nostrum laudantium. <span><FaQuoteRight /></span></p>
                         </div>
                     </SwiperSlide>
@@ -63,41 +77,80 @@ const Clients = () => {
                         <div className='clients-container'>
                             <div className='clients'>
                                 <div className='clients-img'>
-                                    <img src={testTwo} alt="" />
+                                    <img src={testOne} alt="" />
                                 </div>
                                 <div>
                                     <h6>Amazing service</h6>
                                     <p>Kolis Sarth</p>
+
                                 </div>
+
                             </div>
+
                             <p> <span><FaQuoteLeft /></span> Lets know moreel necessitatibus dolor asperiores illum possimus sint voluptates incidunt molestias nostrum laudantium. <span><FaQuoteRight /></span></p>
                         </div>
                     </SwiperSlide>
 
+                    <SwiperSlide >
+                        <div className='clients-container'>
+                            <div className='clients'>
+                                <div className='clients-img'>
+                                    <img src={testOne} alt="" />
+                                </div>
+                                <div>
+                                    <h6>Amazing service</h6>
+                                    <p>Kolis Sarth</p>
+
+                                </div>
+
+                            </div>
+
+                            <p> <span><FaQuoteLeft /></span> Lets know moreel necessitatibus dolor asperiores illum possimus sint voluptates incidunt molestias nostrum laudantium. <span><FaQuoteRight /></span></p>
+                        </div>
+                    </SwiperSlide>
+
+                    <SwiperSlide >
+                        <div className='clients-container'>
+                            <div className='clients'>
+                                <div className='clients-img'>
+                                    <img src={testOne} alt="" />
+                                </div>
+                                <div>
+                                    <h6>Amazing service</h6>
+                                    <p>Kolis Sarth</p>
+
+                                </div>
+
+                            </div>
+
+                            <p> <span><FaQuoteLeft /></span> Lets know moreel necessitatibus dolor asperiores illum possimus sint voluptates incidunt molestias nostrum laudantium. <span><FaQuoteRight /></span></p>
+                        </div>
+                    </SwiperSlide>
+
+                    <SwiperSlide >
+                        <div className='clients-container'>
+                            <div className='clients'>
+                                <div className='clients-img'>
+                                    <img src={testOne} alt="" />
+                                </div>
+                                <div>
+                                    <h6>Amazing service</h6>
+                                    <p>Kolis Sarth</p>
+
+                                </div>
+
+                            </div>
+
+                            <p> <span><FaQuoteLeft /></span> Lets know moreel necessitatibus dolor asperiores illum possimus sint voluptates incidunt molestias nostrum laudantium. <span><FaQuoteRight /></span></p>
+                        </div>
+                    </SwiperSlide>
 
 
                     <SwiperSlide >
                         <div className='clients-container'>
                             <div className='clients'>
                                 <div className='clients-img'>
-                                    <img src={testThree} alt="" />
-                                </div>
-                                <div>
-                                    <h6>Amazing service</h6>
-                                    <p>Kolis Sarth</p>
-                                </div>
-                            </div>
-                            <p> <span><FaQuoteLeft /></span> Lets know moreel necessitatibus dolor asperiores illum possimus sint voluptates incidunt molestias nostrum laudantium. <span><FaQuoteRight /></span></p>
-                        </div>
-                    </SwiperSlide>
-
-
-
-                    <SwiperSlide >
-                        <div className='clients-container'>
-                            <div className='clients'>
-                                <div className='clients-img'>
-                                    <img src={testFour} alt="" />
+                                    <img src={testOne} alt="" />
                                 </div>
                                 <div>
                                     <h6>Amazing service</h6>
@@ -106,10 +159,12 @@ const Clients = () => {
                                 </div>
 
                             </div>
-                            <p> <span><FaQuoteLeft /></span> Lets know moreel necessitatibus dolor asperiores illum possimus sint voluptates incidunt molestias nostrum laudantium. <span><FaQuoteRight /></span></p>
 
+                            <p> <span><FaQuoteLeft /></span> Lets know moreel necessitatibus dolor asperiores illum possimus sint voluptates incidunt molestias nostrum laudantium. <span><FaQuoteRight /></span></p>
                         </div>
                     </SwiperSlide>
+
+                    
 
                 </div>
 

@@ -18,21 +18,24 @@ const Blogs = () => {
                 <h2>Our Latest Medical<br />Blog Posts</h2>
             </div>
 
-             <Cards></Cards>
+            <Cards></Cards>
 
             <div className='blog-cards'>
-                              
-            <div className='blog-card'>
+
+                <div className='blog-card'>
                     <div className='blog-card-header'>
                         <img src={blog1} alt="" />
-                        <h3>Dolor clita vero elitr sea stet dolor justo diam</h3>
+                        <h4>Dolor clita vero elitr sea stet dolor justo diam</h4>
                         <p>Dolor lorem eos dolor duo et eirmod sea. Dolor sit magna rebum clita rebum dolor stet amet justo</p>
                     </div>
 
                     <div className='blog-card-footer'>
                         <div className='blog-card-footer-one'>
                             <img src={test1} alt="" />
-                            <small>Author: <span><small className='blogs-author'>John Doe</small></span> </small>
+                            <div className='blogs-author-part'>
+                                <small>Author: <span><small className='blogs-author'>John Doe</small></span> </small>
+
+                            </div>
 
                         </div>
 
@@ -44,14 +47,17 @@ const Blogs = () => {
                 <div className='blog-card'>
                     <div className='blog-card-header'>
                         <img src={blog2} alt="" />
-                        <h3>Dolor clita vero elitr sea stet dolor justo diam</h3>
+                        <h4>Dolor clita vero elitr sea stet dolor justo diam</h4>
                         <p>Dolor lorem eos dolor duo et eirmod sea. Dolor sit magna rebum clita rebum dolor stet amet justo</p>
                     </div>
 
                     <div className='blog-card-footer'>
                         <div className='blog-card-footer-one'>
                             <img src={test1} alt="" />
-                            <small>Author: <span><small className='blogs-author'>John Doe</small></span> </small>
+                            <div className='blogs-author-part'>
+                                <small>Author: <span><small className='blogs-author'>John Doe</small></span> </small>
+
+                            </div>
 
                         </div>
 
@@ -63,14 +69,17 @@ const Blogs = () => {
                 <div className='blog-card'>
                     <div className='blog-card-header'>
                         <img src={blog3} alt="" />
-                        <h3>Dolor clita vero elitr sea stet dolor justo diam</h3>
+                        <h4>Dolor clita vero elitr sea stet dolor justo diam</h4>
                         <p>Dolor lorem eos dolor duo et eirmod sea. Dolor sit magna rebum clita rebum dolor stet amet justo</p>
                     </div>
 
                     <div className='blog-card-footer'>
                         <div className='blog-card-footer-one'>
                             <img src={test1} alt="" />
-                            <small>Author: <span><small className='blogs-author'>John Doe</small></span> </small>
+                            <div className='blogs-author-part'>
+                                <small>Author: <span><small className='blogs-author'>John Doe</small></span> </small>
+
+                            </div>
 
                         </div>
 
@@ -81,14 +90,17 @@ const Blogs = () => {
                 <div className='blog-card'>
                     <div className='blog-card-header'>
                         <img src={blog5} alt="" />
-                        <h3>Dolor clita vero elitr sea stet dolor justo diam</h3>
+                        <h4>Dolor clita vero elitr sea stet dolor justo diam</h4>
                         <p>Dolor lorem eos dolor duo et eirmod sea. Dolor sit magna rebum clita rebum dolor stet amet justo</p>
                     </div>
 
                     <div className='blog-card-footer'>
                         <div className='blog-card-footer-one'>
                             <img src={test1} alt="" />
-                            <small>Author: <span><small className='blogs-author'>John Doe</small></span> </small>
+                            <div className='blogs-author-part'>
+                                <small>Author: <span><small className='blogs-author'>John Doe</small></span> </small>
+
+                            </div>
 
                         </div>
 
@@ -100,14 +112,17 @@ const Blogs = () => {
                 <div className='blog-card'>
                     <div className='blog-card-header'>
                         <img src={blog6} alt="" />
-                        <h3>Dolor clita vero elitr sea stet dolor justo diam</h3>
+                        <h4>Dolor clita vero elitr sea stet dolor justo diam</h4>
                         <p>Dolor lorem eos dolor duo et eirmod sea. Dolor sit magna rebum clita rebum dolor stet amet justo</p>
                     </div>
 
                     <div className='blog-card-footer'>
                         <div className='blog-card-footer-one'>
                             <img src={test1} alt="" />
-                            <small>Author: <span><small className='blogs-author'>John Doe</small></span> </small>
+                            <div className='blogs-author-part'>
+                                <small>Author: <span><small className='blogs-author'>John Doe</small></span> </small>
+
+                            </div>
 
                         </div>
 
@@ -119,15 +134,17 @@ const Blogs = () => {
                 <div className='blog-card'>
                     <div className='blog-card-header'>
                         <img src={blog7} alt="" />
-                        <h3>Dolor clita vero elitr sea stet dolor justo diam</h3>
+                        <h4>Dolor clita vero elitr sea stet dolor justo diam</h4>
                         <p>Dolor lorem eos dolor duo et eirmod sea. Dolor sit magna rebum clita rebum dolor stet amet justo</p>
                     </div>
 
                     <div className='blog-card-footer'>
                         <div className='blog-card-footer-one'>
                             <img src={test1} alt="" />
-                            <small>Author: <span><small className='blogs-author'>John Doe</small></span> </small>
+                            <div className='blogs-author-part'>
+                                <small>Author: <span><small className='blogs-author'>John Doe</small></span> </small>
 
+                            </div>
                         </div>
 
                     </div>
@@ -137,14 +154,17 @@ const Blogs = () => {
                 <div className='blog-card'>
                     <div className='blog-card-header'>
                         <img src={blog8} alt="" />
-                        <h3>Dolor clita vero elitr sea stet dolor justo diam</h3>
+                        <h4>Dolor clita vero elitr sea stet dolor justo diam</h4>
                         <p>Dolor lorem eos dolor duo et eirmod sea. Dolor sit magna rebum clita rebum dolor stet amet justo</p>
                     </div>
 
                     <div className='blog-card-footer'>
                         <div className='blog-card-footer-one'>
                             <img src={test1} alt="" />
-                            <small>Author: <span><small className='blogs-author'>John Doe</small></span> </small>
+                            <div className='blogs-author-part'>
+                                <small>Author: <span><small className='blogs-author'>John Doe</small></span> </small>
+
+                            </div>
 
                         </div>
 
@@ -155,14 +175,17 @@ const Blogs = () => {
                 <div className='blog-card'>
                     <div className='blog-card-header'>
                         <img src={blog1} alt="" />
-                        <h3>Dolor clita vero elitr sea stet dolor justo diam</h3>
+                        <h4>Dolor clita vero elitr sea stet dolor justo diam</h4>
                         <p>Dolor lorem eos dolor duo et eirmod sea. Dolor sit magna rebum clita rebum dolor stet amet justo</p>
                     </div>
 
                     <div className='blog-card-footer'>
                         <div className='blog-card-footer-one'>
                             <img src={test1} alt="" />
-                            <small>Author: <span><small className='blogs-author'>John Doe</small></span> </small>
+                            <div className='blogs-author-part'>
+                                <small>Author: <span><small className='blogs-author'>John Doe</small></span> </small>
+
+                            </div>
 
                         </div>
 
@@ -173,85 +196,22 @@ const Blogs = () => {
                 <div className='blog-card'>
                     <div className='blog-card-header'>
                         <img src={blog1} alt="" />
-                        <h3>Dolor clita vero elitr sea stet dolor justo diam</h3>
+                        <h4>Dolor clita vero elitr sea stet dolor justo diam</h4>
                         <p>Dolor lorem eos dolor duo et eirmod sea. Dolor sit magna rebum clita rebum dolor stet amet justo</p>
                     </div>
 
                     <div className='blog-card-footer'>
                         <div className='blog-card-footer-one'>
                             <img src={test1} alt="" />
-                            <small>Author: <span><small className='blogs-author'>John Doe</small></span> </small>
+                            <div className='blogs-author-part'>
+                                <small>Author: <span><small className='blogs-author'>John Doe</small></span> </small>
 
+                            </div>
                         </div>
 
                     </div>
                 </div>
-              
-                <div className='blog-card'>
-                    <div className='blog-card-header'>
-                        <img src={blog1} alt="" />
-                        <h3>Dolor clita vero elitr sea stet dolor justo diam</h3>
-                        <p>Dolor lorem eos dolor duo et eirmod sea. Dolor sit magna rebum clita rebum dolor stet amet justo</p>
-                    </div>
-
-                    <div className='blog-card-footer'>
-                        <div className='blog-card-footer-one'>
-                            <img src={test1} alt="" />
-                            <small>Author: <span><small className='blogs-author'>John Doe</small></span> </small>
-
-                        </div>
-
-                    </div>
-                </div>
-                 
-
-                <div className='blog-card'>
-                    <div className='blog-card-header'>
-                        <img src={blog1} alt="" />
-                        <h3>Dolor clita vero elitr sea stet dolor justo diam</h3>
-                        <p>Dolor lorem eos dolor duo et eirmod sea. Dolor sit magna rebum clita rebum dolor stet amet justo</p>
-                    </div>
-
-                    <div className='blog-card-footer'>
-                        <div className='blog-card-footer-one'>
-                            <img src={test1} alt="" />
-                            <small>Author: <span><small className='blogs-author'>John Doe</small></span> </small>
-
-                        </div>
-
-                    </div>
-                </div>
-
-
-
-                <div className='blog-card'>
-                    <div className='blog-card-header'>
-                        <img src={blog1} alt="" />
-                        <h3>Dolor clita vero elitr sea stet dolor justo diam</h3>
-                        <p>Dolor lorem eos dolor duo et eirmod sea. Dolor sit magna rebum clita rebum dolor stet amet justo</p>
-                    </div>
-
-                    <div className='blog-card-footer'>
-                        <div className='blog-card-footer-one'>
-                            <img src={test1} alt="" />
-                            <small>Author: <span><small className='blogs-author'>John Doe</small></span> </small>
-
-                        </div>
-
-                    </div>
-                </div>
-            
-               
-
-
-
-
-
             </div>
-
-
-             
-
         </nav>
     );
 };

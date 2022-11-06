@@ -1,35 +1,87 @@
-
-
-.doctor-container{
-    padding: 8px;
-    background-color: aqua;
-    margin: 20px;
-    border: 1px solid rgb(8, 8, 8);
+.doctor-top-part {
+    padding-top: 4%;
+    height: 250px;
+    background-image: url('../../images/22.jpg');
+    opacity: .80;
+    text-align: center;
 }
 
-h2{
+.doctor-top-part>h1 {
+    font-size: 60px;
+    font-weight: 900;
+
+    font-size: 60px;
+    line-height: 1.2;
+    letter-spacing: 1.2px;
+    text-transform: capitalize;
+    color: #662222;
+}
+
+.doctor-container {
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.doctor-container>h2 {
+
     font-size: 36px;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 2px;
-    color: brown;
+    color: #6F8BA4;
 }
 
-h6{  font-size: 20px; 
-    text-align: center;
-    letter-spacing: 1px;
-    color: black;  
-}
 
-.doctors-list{
+.doctors-list {
+
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
-    grid-gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 50px;
 
 }
 
 
-.doctors-list{
-   
+.doctors-list {
+
     padding-top: 15px;
+}
+
+@media screen and (max-width:768px) {
+    .doctor-top-part {
+        padding-top: 2%;
+        height: 200px;
+        opacity: .80;
+
+    }
+
+    .doctor-top-part>h1 {
+        font-size: 35px;
+        font-weight: 500;
+    }
+
+    .doctor-container {
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .doctor-container>h2 {
+     font-size: 26px;
+    }
+
+
+    .doctors-list {
+
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 30px;
+
+    }
+
+
+    .doctors-list {
+
+        padding-top: 15px;
+    }
+
 }

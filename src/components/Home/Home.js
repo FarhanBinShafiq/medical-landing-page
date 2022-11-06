@@ -68,10 +68,10 @@ const Home = () => {
             <Package></Package>
             <Departments/>
            
-            {/* 
+            
                 <Services></Services>
                  <Clients></Clients>
-                <Clients></Clients> */}
+               
         </>
 
 
