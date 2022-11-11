@@ -3,8 +3,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Blogs from "./components/Blogs/Blogs";
 import Clients from "./components/Clients/Clients";
 import Contact from "./components/Contact/Contact";
+
  
-import Neorology from "./components/Department/Neurology/Neorology";
 import Departments from "./components/Departments/Departments";
 import Doctor from "./components/Doctors/Doctor";
 import Footer from "./components/Footer/Footer";
@@ -13,7 +13,7 @@ import Home from "./components/Home/Home";
 import Package from "./components/Package/Package";
 
 import Services from "./components/Shared/Services/Services";
- 
+
 
 
 function App() {
@@ -25,22 +25,18 @@ function App() {
 
       <BrowserRouter>
         <Header></Header>
-      <Routes>
-      <Route path="/" element={<Home />}></Route>
+        <Home/>
+ 
+        {/* <Routes>
+          <Route path="/" element={<Home />}></Route>
           <Route path="home" element={<Home />}></Route>
           <Route path="department" element={<Departments />}></Route>
           <Route path="doctor" element={<Doctor />}></Route>
-          <Route path="blogs" element={<Blogs />}></Route> 
-      
-          <Route path="contact" element={<Contact/>}></Route>
-
-        </Routes>  
-        
-        {/* <Services/>  */}
-        {/* <Footer></Footer>  */}
-        
-      
-        
+          <Route path="blogs" element={<Blogs />}></Route>
+          <Route path="blogs" element={<Services />}></Route>
+          <Route path="contact" element={<Contact />}></Route>
+        </Routes>
+        <Footer></Footer> */}
       </BrowserRouter>
 
 

@@ -54,13 +54,15 @@
     margin-right: 80px;
     position: relative;
   }
-
+  
+ 
   .Navbar>.nav-items {
     position: absolute;
     top: 80px;
     display: flex;
     flex-direction: column;
-    background-color: #f8f9fa;
+    background-color: #ffffff;
+    z-index: 10;
     left: 0;
     width: 100%;
     height: 100vh;
@@ -75,7 +77,7 @@
   }
 
   .Navbar>.nav-items>a::before {
-    background: transparent;
+  background:transparent;
 
   }
 
@@ -129,8 +131,6 @@
     width: 32px;
     transform: translateY(8px);
   }
-
-
 
 
 
