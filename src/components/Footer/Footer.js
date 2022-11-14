@@ -5,6 +5,8 @@ import { BsFacebook, BsInstagram, BsGoogle, BsTwitter } from "react-icons/bs";
 import { BsFillTelephonePlusFill } from "react-icons/bs";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
+import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 const Footer = () => {
     return (
@@ -14,7 +16,7 @@ const Footer = () => {
                     <img src={logo} alt="" />
                 </div>
                 <div className='footer-contactUs'>
-              <h6>Contact with us</h6>
+                    <h6>Contact with us</h6>
                     <ul className='footer-contact-class'>
                         <li><BsFillTelephonePlusFill /> <span>+758 665656600</span></li>
                         <li> <FaMapMarkerAlt /><span>Dhaka ,Bangladesh </span></li>
@@ -23,18 +25,26 @@ const Footer = () => {
                 </div>
             </div>
 
-           
-            
+
+
             <div>
                 <h6>Useful links</h6>
                 <ul className='footer-links'>
-                     <li><a href="http://">Home</a></li>
-                     <li><a href="http://">Doctors</a></li>
-                     <li><a href="http://">Blogs</a></li>
-                     <li><a href="http://">Contact Us</a></li>
-                     <li><a href="http://">News Letter</a></li>
+                    <li><Link as to="home">Home</Link></li>
+                    <li><HashLink smooth to="/home#about">About</HashLink></li>
+                    <li>  <HashLink smooth to="/home#department">Departments</HashLink></li>
+                    <li> <Link to="doctor">Doctors</Link></li>
+                    <li><Link to="blogs">Blogs</Link></li>
+                   
                 </ul>
             </div>
+
+
+            <div className='footer-doctor-details'>
+                <h6>Doctors</h6>
+                <p>There are many variations of passages of  Lorem Ipsum available, but the majority  available, but the majority have suffered alteration in some form, by injected humour</p>
+            </div>
+
             <div className='footer-socialMedia'>
                 <h6>News Letter</h6>
                 <div>
@@ -48,11 +58,6 @@ const Footer = () => {
                         <li><a href="http://www.twitter.com"><BsTwitter /></a></li>
                     </ul>
                 </div>
-            </div>
-
-            <div className='footer-doctor-details'>
-                <h6>Doctors</h6>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have sufferedThere are many variations of passages of Lorem Ipsum available, but the majority have sufferedThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
             </div>
         </div>
     );

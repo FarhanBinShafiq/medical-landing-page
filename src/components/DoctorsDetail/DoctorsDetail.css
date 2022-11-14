@@ -1,3 +1,9 @@
+*{
+    box-sizing: border-box;
+    font-family: "Exo", sans-serif;
+}
+
+
 .doctor-detail{
     width: 100%;
     transition: 1s ease;

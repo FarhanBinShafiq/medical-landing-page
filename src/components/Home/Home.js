@@ -2,6 +2,7 @@ import React from 'react';
 import './Home.css'
 import img1 from '../../images/img-1.png'
 import { Swiper, SwiperSlide } from "swiper/react";
+import { useNavigate} from 'react-router-dom';
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -11,9 +12,15 @@ import Services from '../Shared/Services/Services';
 import Clients from '../Clients/Clients';
 import Departments from '../Departments/Departments';
 import Package from '../Package/Package';
+import AboutUs from '../About-Us/AboutUs';
 
 
 const Home = () => {
+    const navigate = useNavigate();
+    const navigateToContacts = () => {
+        // 👇️ navigate to /contacts
+        navigate('/contact');
+      };
     return (
 
         <>
@@ -33,7 +40,7 @@ const Home = () => {
 
                         <h1>Your Most Trusted Health Partner</h1>
                         <p>A repudiandae ipsam labore ipsa voluptatum quidem quae laudantium quisquam aperiam maiores sunt fugit, deserunt rem suscipit placeat.</p>
-                        <button className='second-buton'>Make Appoinment</button>
+                        <button className='second-buton'onClick={navigateToContacts }>Make Appoinment</button>
                     </div>
                 </SwiperSlide>
 
@@ -50,7 +57,7 @@ const Home = () => {
 
 
                         <div className='home-left-part-button'>
-                            <button>Contact </button>
+                            <button onClick={navigateToContacts }>Contact </button>
                             <button>Download the App</button>
                         </div>
                     </div>
@@ -65,13 +72,13 @@ const Home = () => {
 
             </Swiper>
             <Cards></Cards>
+            <AboutUs></AboutUs> 
+            <Services/>
+            <Departments />
+         
             <Package></Package>
-            <Departments/>
-           
-            
-                <Services></Services>
-                 <Clients></Clients>
-               
+            <Clients></Clients>  
+
         </>
 
 

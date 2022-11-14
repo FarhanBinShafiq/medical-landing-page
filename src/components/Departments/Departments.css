@@ -15,9 +15,11 @@
 .department-top>h5 {
     font-size: 30px;
     font-weight: 800;
+    color: #223a66;
 }
 
 .department-top>p {
+    color: #223a66;
     font-family: "Exo", sans-serif;
     text-transform: capitalize;
     padding-top: 20px;

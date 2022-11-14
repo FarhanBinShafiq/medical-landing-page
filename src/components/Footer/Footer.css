@@ -1,6 +1,7 @@
 * {
     list-style-type: none;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
 h6 {
@@ -15,13 +16,15 @@ h6 {
 }
 
 .footer-container {
+    border-top: 5px solid black;
     height:auto;
     padding-top: 10px;
     margin-top: 20px;
-    background-color: rgb(254, 252, 252);
+   padding-left: 7%;
+   padding-right: 4%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    border: 1px solid rgb(87, 1, 1);
+   
 }
 
 

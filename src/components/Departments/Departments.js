@@ -15,10 +15,10 @@ const Departments = () => {
  
 
     return (
-        <div>
+        <div id='department'>
             <div className='department-top'>
                 <h5>DEPARTMENTS</h5>
-                <h2>Clinic Departments</h2>
+       
                 <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
             </div>
 

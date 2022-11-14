@@ -6,7 +6,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 const Package = () => {
     return (
-        <div className='package-container'>
+        <div className='package-container' id='package'>
             <div className='package'>
                 <h1>Best Of Health care for you</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,   quis</p>

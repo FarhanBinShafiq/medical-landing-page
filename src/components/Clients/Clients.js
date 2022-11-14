@@ -17,7 +17,7 @@ import { Keyboard, Navigation, Pagination } from "swiper";
 
 const Clients = () => {
     return (
-        <div className='clients-top-heading'>
+        <div className='clients-top-heading' id='client'>
             <h2>We served over 5000+ Patients</h2>
             <Swiper
                 slidesPerView={1}
@@ -54,7 +54,8 @@ const Clients = () => {
                                     <p>Kolis Sarth</p>
                                 </div>
                             </div>
-                            <p> <span><FaQuoteLeft /></span> Lets know moreel necessitatibus dolor asperiores illum possimus sint voluptates incidunt molestias nostrum laudantium. <span><FaQuoteRight /></span></p>
+                            <p> <span><FaQuoteLeft /></span> Lets know moreel necessitatibus dolor asperiores illum possimus sint voluptates incidunt molestias nostrum laudantium. 
+                            <span><FaQuoteRight /></span></p>
                         </div>
                     </SwiperSlide>
 

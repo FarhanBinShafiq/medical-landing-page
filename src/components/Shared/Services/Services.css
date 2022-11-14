@@ -1,6 +1,7 @@
 .services-top {
     text-align: center;
   
+  
 }
 
 
@@ -13,20 +14,20 @@
 }
 
 .services-top-boxs img {
-    height: 10vh;
-    width: 50%;
+    height: 6vh;
+    width: 40%;
 
 }
 
 .services-top-box {
-    color: rgb(255, 255, 255);
-    background-color: #000000;
+    color: rgb(243, 6, 6);
+    background-color: #2490EB;
     border-radius: 10px;
     padding-top: 40px;
     box-sizing: border-box;
     width: 220px;
     height: 220px;
-    border: 2px solid red;
+    border: 2px solid rgb(18, 18, 18);
 }
 
 .services-top-box:hover {
@@ -38,7 +39,7 @@
     font-family: "Roboto", sans-serif;
     padding-top: 4%;
     font-size: 22px;
-    color: #6F8BA4;
+    color: #ffffff;
     font-weight: 400;
 }
 
@@ -57,7 +58,7 @@
     padding-top: 2%;
     font-size: 20px;
     text-transform: capitalize;
-    color: #6F8BA4;
+    color: #ffffff;
     font-weight: 400;
 }
 

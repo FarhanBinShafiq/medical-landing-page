@@ -12,7 +12,6 @@
 .card {
     text-align: center;
     width: 80%;
-
     border: 5px solid #EEF2F6;
     padding-top: 15%;
     padding-bottom: 15%;
@@ -33,12 +32,15 @@
     color: #e12454;
 }
 
-    .card>p{
-        
-        font-family: "Exo", sans-serif;
-        font-weight: 300;
-        color: #222;
-    }
+.card>p {
+    margin-top: 5px;
+    font-size: 18px;
+    line-height: 2rem;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 100;
+}
 
 @media screen and (max-width:1000px) {
     .card {

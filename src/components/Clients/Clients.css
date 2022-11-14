@@ -32,7 +32,7 @@ p {
 
 .clients-container {
    margin-left: 80px;
-   border: 1px solid red;
+   background-color:  #f8f9fa;
    width: 80%;
    height: 30vh;
 }
@@ -52,12 +52,12 @@ span {
 }
 
 
+
 @media screen and (max-width:768px) {
    .clients-container {
       margin: 10px;
-      border: 1px solid red;
       width: 90%;
-      height: 280px;
+     
    }
 
    .clients-top-heading>h2 {
