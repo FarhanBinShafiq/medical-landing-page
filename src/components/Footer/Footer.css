@@ -20,7 +20,7 @@ h6 {
     height:auto;
     padding-top: 10px;
     margin-top: 20px;
-   padding-left: 7%;
+    padding-left: 7%;
    padding-right: 4%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
